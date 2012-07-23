@@ -20,7 +20,60 @@
   </dependencies>
 
     <build>
-    <finalName>bqi</finalName>
-  </build>
+        <finalName>bqi</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.jboss.as.plugins</groupId>
+                <artifactId>jboss-as-maven-plugin</artifactId>
+                <version>7.1.1.Final</version>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                        <!-- only remote server needs -->
+                        <configuration>
+                            <hostname>192.168.1.201</hostname>
+                            <port>9999</port>
+                            <username>admin</username>
+                            <password>jboss</password>
+                            <filename>bqi.war</filename>
+                        </configuration>
+
+                    </execution>
+                </executions>
+
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--
+   <distributionManagement>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>cloud4soa-release</id>
+            <name>Cloud4SOA Atos release repository</name>
+            <url>http://hudson.cloud4soa.eu:8080/nexus/content/repositories/cloud4soa-release/</url>
+        </repository>
+        <snapshotRepository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>cloud4soa-snapshots</id>
+            <name>Cloud4SOA Atos snapshot repository</name>
+            <url>http://hudson.cloud4soa.eu:8080/nexus/content/repositories/cloud4soa-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    -->
+
+    <repositories>
+        <repository>
+            <id>Jboss repository</id>
+            <url>http://repository.jboss.org/nexus/content/repositories/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
 
 </project>
