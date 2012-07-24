@@ -11,7 +11,25 @@
 
     <ui:define name="content">
 
-          <h:outputText value="koukourikou" />
+        <h:form>
+            <table>
+                <tr>
+                    <td>
+                        Search by:
+                        <h:selectOneMenu id="annotationsItem" value="#{UIBeans.annotations}">
+                            <f:selectItem itemLabel="Annotations" itemValue="0"/>
+                            <f:selectItem itemLabel="Drugs" itemValue="6"/>
+                        </h:selectOneMenu>
+                    </td>
+                    <td>
+                        for
+                        <h:inputText id="searchTerm" value="#{UIBeans.searchterm}" styleClass="inputbox"/>
+                        <h:commandButton value="Submit" action="#{UIBeans.doSearch}" styleClass="submitButton"/>
+                    </td>
+
+                </tr>
+            </table>
+        </h:form>
 
     </ui:define>
 </ui:composition>

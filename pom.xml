@@ -5,7 +5,7 @@
   <groupId>bqi.granatum</groupId>
   <artifactId>bqi</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>Granatum Basic Query Interface</name>
 
   <url>http://maven.apache.org</url>
@@ -16,8 +16,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <version>4.8</version>
     </dependency>
 
       <!-- JSF implementation -->
@@ -75,22 +74,77 @@
           <version>4.2.2.Final</version>
       </dependency>
 
+      <!-- JAXB dependencies -->
+      <dependency>
+          <groupId>javax.xml.bind</groupId>
+          <artifactId>jaxb-api</artifactId>
+          <version>2.2.5</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-impl</artifactId>
+          <version>2.2.5</version>
+      </dependency>
+
+
   </dependencies>
 
     <build>
         <finalName>bqi</finalName>
+
+
+
         <plugins>
+            <!-- JAXB Plugin -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>1.4</version>
+                <executions>
+                    <execution>
+                        <id>schema1-xjc</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <schemaFiles>sparqlresult.xsd</schemaFiles>
+                            <packageName>eu.granatum.xsd</packageName>
+                            <schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory>
+                            <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
+                            <clearOutputDir>false</clearOutputDir>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Test plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12</version>
+                <configuration>
+                    <includes>
+                        <include>**/*Test.java</include>
+                        <include>**/Test*.java</include>
+                    </includes>
+                </configuration>
+
+            </plugin>
+
+
+            <!-- Transfer to JBOSS Plugin-->
+
             <plugin>
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
                 <version>7.1.1.Final</version>
                 <executions>
                     <execution>
-                        <phase>install</phase>
+                        <phase>deploy</phase>
                         <goals>
                             <goal>deploy</goal>
                         </goals>
-                        <!-- only remote server needs -->
                         <configuration>
                             <hostname>192.168.1.201</hostname>
                             <port>9999</port>
@@ -101,29 +155,31 @@
 
                     </execution>
                 </executions>
-
             </plugin>
+
+
         </plugins>
+
     </build>
 
-    <!--
+
    <distributionManagement>
         <repository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>cloud4soa-release</id>
-            <name>Cloud4SOA Atos release repository</name>
-            <url>http://hudson.cloud4soa.eu:8080/nexus/content/repositories/cloud4soa-release/</url>
+            <uniqueVersion>true</uniqueVersion>
+            <id>ubitech-releases</id>
+            <name>UBITECH release repository</name>
+            <url>http://192.168.1.201:8081/nexus/content/repositories/ubitech-releases/</url>
         </repository>
         <snapshotRepository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>cloud4soa-snapshots</id>
-            <name>Cloud4SOA Atos snapshot repository</name>
-            <url>http://hudson.cloud4soa.eu:8080/nexus/content/repositories/cloud4soa-snapshot/</url>
+            <id>ubitech-snapshots</id>
+            <name>UBITECH snapshot repository</name>
+            <url>http://192.168.1.201:8081/nexus/content/repositories/ubitech-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-    -->
+
 
     <repositories>
+        <!-- Global Repository -->
         <repository>
             <id>Jboss repository</id>
             <url>http://repository.jboss.org/nexus/content/repositories/releases</url>
@@ -131,6 +187,19 @@
                 <enabled>true</enabled>
             </releases>
         </repository>
+        <!-- UBITECH Repositories -->
+        <repository>
+            <id>ubitech-releases</id>
+            <name>UBITECH release repository</name>
+            <url>http://192.168.1.201:8081/nexus/content/repositories/ubitech-releases/</url>
+        </repository>
+        <repository>
+            <id>ubitech-snapshots</id>
+            <name>UBITECH snapshot repository</name>
+            <url>http://192.168.1.201:8081/nexus/content/repositories/ubitech-snapshots/</url>
+        </repository>
+
+
     </repositories>
 
 

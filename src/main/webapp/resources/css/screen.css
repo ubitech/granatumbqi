@@ -1,7 +1,7 @@
 /* general */
 
 body{
-    background:#d8e6ec url(../images/bg_body.gif) repeat-x;
+    /*background:#d8e6ec url(../images/bg_body.gif) repeat-x;*/
     font:80% Arial, Helvetica, Sans-Serif;
     color:#555;
     line-height:180%;
@@ -42,27 +42,13 @@ p{
 }
 
 
-/* // general */
-
-/* page setup */
-
 #container{
     margin:0 auto;
     width:928px;
     text-align:left;
 }
-#header{
-    height:236px;
-    background:url(../images/bg_header.jpg) no-repeat 0 0;
-}
+
 #content{
-    background:url(../images/bg_content.gif) repeat-y;
+    /*background:url(../images/bg_content.gif) repeat-y;*/
     padding:.5em 34px;
 }
-#footer{
-    padding:25px 60px;
-    background:url(../images/bg_footer.gif) no-repeat 0 0;
-    color:#fff;
-}
-
-/* //page setup */
