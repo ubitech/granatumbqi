@@ -156,10 +156,11 @@
                 <version>7.1.1.Final</version>
                 <executions>
                     <execution>
-                        <phase>deploy</phase>
+                        <phase>install</phase>
                         <goals>
                             <goal>deploy</goal>
                         </goals>
+                        <!-- patroklos configuration
                         <configuration>
                             <hostname>192.168.1.201</hostname>
                             <port>9999</port>
@@ -167,6 +168,14 @@
                             <password>jboss</password>
                             <filename>bqi.war</filename>
                         </configuration>
+                         -->
+                        <!-- Local configuration -->
+                        <configuration>
+                            <hostname>127.0.0.1</hostname>
+                            <port>9999</port>
+                            <filename>bqi.war</filename>
+                        </configuration>
+
 
                     </execution>
                 </executions>

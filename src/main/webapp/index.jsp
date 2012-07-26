@@ -3,6 +3,6 @@
 
 <%
 
-    response.sendRedirect("jsfs/granatumviewer.jsf");
+    response.sendRedirect("jsfs/search.jsf");
 
 %>

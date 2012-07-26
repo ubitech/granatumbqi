@@ -54,7 +54,7 @@
 				<uri>http://chem.deri.ie/granatum/diagram2D</uri>
 			</binding>
 			<binding name="URI">
-				<uri>image1.jpg</uri>
+				<uri>../resources/samples/image1.jpg</uri>
 			</binding>
 			<binding name="Label">
 				<literal>Image1</literal>
@@ -68,7 +68,7 @@
 				<uri>http://chem.deri.ie/granatum/diagram2D</uri>
 			</binding>
 			<binding name="URI">
-				<uri>image2.jpg</uri>
+				<uri>../resources/samples/image2.jpg</uri>
 			</binding>
 			<binding name="Label">
 				<literal>Image2</literal>
@@ -82,7 +82,7 @@
 				<uri>http://chem.deri.ie/granatum/diagram2D</uri>
 			</binding>
 			<binding name="URI">
-				<uri>image3.jpg</uri>
+				<uri>../resources/samples/image3.jpg</uri>
 			</binding>
 			<binding name="Label">
 				<literal>Image3</literal>
