@@ -26,6 +26,7 @@ public class TestParser {
     @Test
     public void testSample1Exists(){
         System.out.println(1/0);
+
         try {
             logger.info( "Working path: "+new java.io.File(".").getCanonicalPath()  );
             BufferedReader in = new BufferedReader(new FileReader("src/test/resources/sample1.xml"));
