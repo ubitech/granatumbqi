@@ -87,6 +87,21 @@
           <version>2.2.5</version>
       </dependency>
 
+      <!-- SL4J Abstraction -->
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+          <version>1.6.5</version>
+      </dependency>
+
+    <!-- SL4J-log4j Bridge-->
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+          <version>1.6.5</version>
+      </dependency>
+
+
 
   </dependencies>
 
