@@ -156,10 +156,11 @@
                 <version>7.1.1.Final</version>
                 <executions>
                     <execution>
-                        <phase>install</phase>
+                        <phase>deploy</phase>
                         <goals>
                             <goal>deploy</goal>
                         </goals>
+
                         <!-- patroklos configuration
                         <configuration>
                             <hostname>192.168.1.201</hostname>
