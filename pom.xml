@@ -156,7 +156,7 @@
                 <version>7.1.1.Final</version>
                 <executions>
                     <execution>
-                        <phase>deploy</phase>
+                        <phase>install</phase>
                         <goals>
                             <goal>deploy</goal>
                         </goals>
