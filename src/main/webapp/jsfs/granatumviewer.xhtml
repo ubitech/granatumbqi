@@ -18,7 +18,7 @@
                         Search by:
                         <h:selectOneMenu id="annotationsItem" value="#{UIBeans.annotations}">
                             <f:selectItem itemLabel="Annotations" itemValue="0"/>
-                            <f:selectItem itemLabel="Drugs" itemValue="6"/>
+                            <f:selectItem itemLabel="Drugs" itemValue="1"/>
                         </h:selectOneMenu>
                     </td>
                     <td>
@@ -29,6 +29,7 @@
 
                 </tr>
             </table>
+            <h:outputText value="#{UIBeans.annotations} #{UIBeans.searchterm}"/>
         </h:form>
 
     </ui:define>

@@ -1,6 +1,7 @@
 package eu.granatum.beans;
 
 import eu.granatum.xsd.Sparql;
+import eu.granatum.xsd.Sparql.Results.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,7 +32,10 @@ public class SearchBean {
     private List<Sparql.Results.Result> allResults;
     private List<Sparql.Results.Result> documentResults;
     private List<Sparql.Results.Result> imageResults;
+    private List<Sparql.Results.Result> forumResults;
+    private List<Sparql.Results.Result> clinicalResults;
     private List<Sparql.Results.Result> drugResults;
+    
 
     final Logger logger = LoggerFactory.getLogger(SearchBean.class);
 
@@ -98,6 +102,22 @@ public class SearchBean {
         this.drugResults = drugResults;
     }
 
+    public List<Result> getForumResults() {
+        return forumResults;
+    }
+
+    public void setForumResults(List<Result> forumResults) {
+        this.forumResults = forumResults;
+    }
+
+    public List<Result> getClinicalResults() {
+        return clinicalResults;
+    }
+
+    public void setClinicalResults(List<Result> clinicalResults) {
+        this.clinicalResults = clinicalResults;
+    }
+
 
 
     public void doSearch(){
@@ -127,7 +147,7 @@ public class SearchBean {
         try{
             JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
             Unmarshaller u = jc.createUnmarshaller();
-            Object f = u.unmarshal( new File( "/home/pgouvas/jboss711final/bin/"+filename ) );
+            Object f = u.unmarshal( new File( "C:\\"+filename ) );
             Sparql sparql =(Sparql) f;
             List<Object> list = sparql.getHeadOrResults();
 
@@ -144,22 +164,37 @@ public class SearchBean {
                     //Reset Lists
                     documentResults = new ArrayList<Sparql.Results.Result>();
                     imageResults = new ArrayList<Sparql.Results.Result>();
+                    forumResults = new ArrayList<Sparql.Results.Result>();
+                    clinicalResults = new ArrayList<Sparql.Results.Result>();
+                    drugResults = new ArrayList<Sparql.Results.Result>();                    
+                    
                     for (int j = 0; j < allResults.size(); j++) {
                         Sparql.Results.Result res = allResults.get(j);
+                        
                         Sparql.Results.Result.Binding binding = res.getBinding().get(0);
                         if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/PublishedWork")) {
                             //add to document
                             documentResults.add(res);
                         }
+                        
                         if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/diagram2D")) {
                             //add them to images
                             imageResults.add(res);
+                        }                        
+                        if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/ForumPost")) {
+                            //add them to images
+                            forumResults.add(res);
+                        }                        
+                        if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/ClinicalTrial")) {
+                            //add them to images
+                            clinicalResults.add(res);
                         }
                         if (binding.getName().trim().startsWith("Drug")) {
                             //add them to drugs
                             drugResults.add(res);
                         }
-
+                        
+                        
                     }
                 }
 

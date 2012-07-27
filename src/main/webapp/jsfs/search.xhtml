@@ -11,7 +11,7 @@
 
     <ui:define name="content">
         <h:form>
-            <table>
+            <table align="center">
                 <tr>
                     <td>
                         Search by:
@@ -30,7 +30,7 @@
             </table>
 
 
-                    <h:panelGrid columns="2" rendered="#{SearchBean.annotations == '0'}" >
+            <h:panelGrid columns="2" rendered="#{SearchBean.annotations == '0'}">
 
                         <rich:panel style="width:110px;"  >
                             <a4j:outputPanel id="tabs" layout="block">
@@ -119,11 +119,41 @@
                                 </rich:togglePanelItem>
 
                                 <rich:togglePanelItem name="forumPanel">
-                                    Forums
+                                     <rich:dataTable id="forumTable" value="#{SearchBean.forumResults}" var="forumresult" iterationStatusVar="it"  rows="7" style="width:100%;">
+                                        <rich:column>
+                                            <f:facet name="header">
+                                                Forum Results
+                                            </f:facet>
+                                            <table border="0">
+                                                <tr>
+                                                    <td>
+                                                        <h:outputLink value="#{forumresult.binding.get(1).uri}">#{forumresult.binding.get(2).literal}</h:outputLink><br/>
+                                                        #{forumresult.binding.get(3).literal}
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </rich:column>
+                                    </rich:dataTable>
+                                    <rich:dataScroller for="forumTable" maxPages="5" />
                                 </rich:togglePanelItem>
 
                                 <rich:togglePanelItem name="clinicalPanel">
-                                    Clinical
+                                    <rich:dataTable id="clinicalTable" value="#{SearchBean.clinicalResults}" var="clinicalresult" iterationStatusVar="it"  rows="7" style="width:100%;">
+                                        <rich:column>
+                                            <f:facet name="header">
+                                                Clinical Results
+                                            </f:facet>
+                                            <table border="0">
+                                                <tr>
+                                                    <td>
+                                                        <h:outputLink value="#{clinicalresult.binding.get(1).uri}">#{clinicalresult.binding.get(2).literal}</h:outputLink><br/>
+                                                        #{clinicalresult.binding.get(3).literal}
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </rich:column>
+                                    </rich:dataTable>
+                                    <rich:dataScroller for="clinicalTable" maxPages="5" />
                                 </rich:togglePanelItem>
                             </rich:togglePanel>
                         </rich:panel>
@@ -137,7 +167,7 @@
                 <h:panelGrid columns="1">
                     <rich:dataTable id="drugTable" value="#{SearchBean.drugResults}" var="drug" rows="3">
                         <rich:column style="width:150px;text-align:center;">
-                            #{SearchBean.termName}
+                            #{SearchBean.searchterm}
                         </rich:column>
                         <rich:column style="width:450px;">
                             <table>
