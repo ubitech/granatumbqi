@@ -161,7 +161,7 @@
                             <goal>deploy</goal>
                         </goals>
 
-                        <!-- patroklos configuration
+                        <!-- patroklos configuration  -->
                         <configuration>
                             <hostname>192.168.1.201</hostname>
                             <port>9999</port>
@@ -169,14 +169,14 @@
                             <password>jboss</password>
                             <filename>bqi.war</filename>
                         </configuration>
-                         -->
+
                         <!-- Local configuration -->
-                        <configuration>
+                        <!--<configuration>
                             <hostname>127.0.0.1</hostname>
                             <port>9999</port>
                             <filename>bqi.war</filename>
                         </configuration>
-
+                        -->
 
                     </execution>
                 </executions>

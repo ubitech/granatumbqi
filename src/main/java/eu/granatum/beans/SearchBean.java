@@ -147,7 +147,7 @@ public class SearchBean {
         try{
             JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
             Unmarshaller u = jc.createUnmarshaller();
-            Object f = u.unmarshal( new File( "C:\\"+filename ) );
+            Object f = u.unmarshal( new File( "/home/ubiadmin/appservers/jboss711final/bin"+filename ) );
             Sparql sparql =(Sparql) f;
             List<Object> list = sparql.getHeadOrResults();
 
