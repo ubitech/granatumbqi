@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+  <head>
+    <variable name="ChemoAgent"/>
+    <variable name="Label"/>
+    <variable name="smile"/>
+    <variable name="sdf"/>
+  </head>
+  <results>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_0673fccd6e994e80a1cba30fa5aabd6b</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Camostat</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(Oc1ccc(cc1)CC(=O)OCC(=O)N(C)C)c2ccc(/N=C(\N)N)cc2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/7c43d66cfbb99e41e7e60aee8a1a1881.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_563392a5cb064002df8e08b67434e7d7</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Glucarate Calcium</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Ca+2].[O-]C(=O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C([O-])=O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6dca498dfc5fa29b0d404024b4135cb6.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_da796bd4ee524659b4d5e393feb3dafa</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Baclofen</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Clc1ccc(cc1)C(CN)CC(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/67f484bef7dac7ec8ceb24acef74fdd8.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_8ddeccc67202411d801581d23408a85b</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Naltrexone</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4[C@@H]5Oc1c2c(ccc1O)C[C@H]3N(CC[C@]25[C@@]3(O)CC4)CC6CC6</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/f801e34799b0a7672c4556e620260576.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_ff5bf931cb194ec0b05e5f1fa620649a</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Cysteine (L) (S-allyl)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C([C@@H](C(=O)O)N)S</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/2bb41828c439bddba90e8f5fe80d08c8.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_3d340e5fc14e4974d173bd1c4c3922a3</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Purine 2,6 Dithiol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S=C2Nc1ncnc1C(=S)N2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/319782fa9ce2df33792834f8453461da.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_59ad482c9ee44da7c59eeb4837c36580</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Silymarin (µg/ml)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4c5c(O)cc(O)cc5O[C@H](c2ccc1O[C@@H]([C@H](Oc1c2)c3ccc(O)c(OC)c3)CO)[C@H]4O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/14705e035345f437b8be96f6cdb1685f.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_904575d511424c80b5afb19119d26679</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Oxathiazolidine</literal>
+      </binding>
+      <binding name="smile">
+        <literal>N1CCOS1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/e6b42ec28d158f47a1ae0d5ae8b5b210.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_0d7bdb60e420469fcb3d271ca30fb132</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Genistein</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1)C\3=C\Oc2cc(O)cc(O)c2C/3=O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/950429f23510c431ec90081002a2af06.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_12c5c5b29c734851cacc0502f7a1d9f4</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ascorbic acid (vit. C)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/feef0a35d9fbf85db09eb475f25c4983.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_12c5c5b29c734851cacc0502f7a1d9f4</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ascorbic acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/feef0a35d9fbf85db09eb475f25c4983.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_cd8a46241580487ace3ba47dd4119547</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Indole-3-carbinol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>OCc2c1ccccc1nc2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6f72a23909e5a6cd20b7f275b9cc5f4f.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_aefc5f6b8cfd426792367af83b1512c0</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Diallylsulfide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S(C\C=C)C\C=C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/c039e2f07ce5c94df7b3b867f54451c6.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_81a37991d9c44a6ebc9447a6b9b88a37</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Perillyl Alcohol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>OC/C1=C/CC(\C(=C)C)CC1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/e213dadd4ea08d0f70ebbe12dd301ea0.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_bbb53ac9dbe64435f52903dc10f26dbd</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Quercetin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1c3c(O/C(=C1/O)c2ccc(O)c(O)c2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/854be50437df48ca01b17c8ba7c4b496.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_af12d446c76c432cc04132e0e7d1e809</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Trolox</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)C2(Oc1c(c(c(O)c(c1CC2)C)C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/863d6f64cf79d6d3722d090d9f107f0b.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_9d0c8eb26b854f2782a4259644ad8828</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Limonin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4[C@@]6(C)[C@@]72O[C@@H]7C(=O)O[C@@H](c1ccoc1)[C@]2(C)CC[C@@H]6[C@]35COC(=O)C[C@@H]5OC([C@@H]3C4)(C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/66bfdc4bd9e3d49f20a9cc49f93e950b.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_a2ded7c721a64d01fa401c02abf727f2</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Fumaric Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C(=C/C(=O)O)\C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/bb3e78753cc9012cee85fc40e65702e3.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_72f43f116f264d9ccb1b56444f3f37c4</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Theophylline</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Cn1c2c(c(=O)n(c1=O)C)[nH]cn2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6b71ea44fc5233bc7b4b4f93fcb5fece.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_839f9941725e42349a9467695a11dadb</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Propane-1,3-Diamino</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC(N)CN</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/a6144fb27a5925c01a78fc6b8388f994.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_14085d5482b74882d44de12a1decac5d</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Butyric Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CCCC(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/ed17b2bc640e88ca3b187781913be436.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_6a123ae4d9964d42bc0a5f406db10484</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Etoperidone</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Clc3cccc(N2CCN(CCCN1/N=C(\N(C1=O)CC)CC)CC2)c3</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/94e584a4b9db3eab3b0b6bf5ff1eebc2.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_8ee85e2f092844f5b27f22969b944454</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Curcumin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(\C=C\c1ccc(O)c(OC)c1)CC(=O)\C=C\c2cc(OC)c(O)cc2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/958e0defbeafb1a2a969e5981556df01.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_972dba0708294ab1ffce4de200d39a2c</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Cineole</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O2C1(CCC(CC1)C2(C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/9b42c62dbb83804bbb9e7b9c7a8b732f.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_213529c2d4cc4539a3d0c576e5e00dc2</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Esculetin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C/2Oc1cc(O)c(O)cc1\C=C\2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/465aa0720760925f2dc416504e257a30.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_3c80b0e5d74d4880d0af4ddf88528025</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Glutarate Calcium</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Ca+2].[O-]C(=O)CCCC([O-])=O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/d0fa368d80c365501de8efb6df039cbe.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_63b8d28c1cd94bb9f4c34251c2231062</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ergothioneine</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S=C1N\C(=C/N1)C[C@@H](C([O-])=O)[N+](C)(C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/9ce367c46ce4354d270d700821dde7b7.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_06a59324ae574f16dc4de4a7ede3b73c</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Acetophenone (dibromo)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(c1ccccc1)C(Br)Br</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/30bdca841dfd2742ebf44d6e88828cd9.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_8d6197da8e494ebfde013b5d9a6563c4</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Chalcone-(4,2’,4’- trihydroxy)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>c1cc(ccc1/C=C/C(=O)c2ccc(cc2O)O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/7597c953ea9c6beaa2f13b23a68afec1.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_4de511bd4137455ccb656dd3a79f9362</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Methylene Blue</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CN(C)c1ccc2c(c1)sc-3cc(=[N+](C)C)ccc3n2.[Cl-]</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/a60e8d89a969592f83d9c8038972f81a.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_7c3f3b8ed1524ac3d0020beac2d2d2c5</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Sulindac</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(c1ccc(cc1)\C=C3/c2ccc(F)cc2\C(=C3C)CC(=O)O)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/05b5d7395552d01a0505d817100ec9c1.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_01956ee5ce4f433ed488a53cae8f8ee3</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Limonene</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=CCC(CC1)C(=C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/07162de1c6f3cf0a8795266face55bdf.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d0afb08718f84127e7cadd79becb7742</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ellagic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1Oc3c2c4c1cc(O)c(O)c4OC(=O)c2cc(O)c3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/33b291acfd5fd9a04dd3c600e289d2ae.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_5d3b92ec3c8a432bbf81e7ad05a9bef4</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Apigenin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C(=C/1)c2ccc(O)cc2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/8b03979b04eafb6eabb93b6d85b80784.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d0a74cc114644ccda90ef1d330e790d3</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Tetracycline</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C[C@]1(c2cccc(c2C(=O)C3=C([C@]4([C@@H](C[C@@H]31)[C@@H](C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/c251816684510513c5b6e052ccc2c463.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_edd233db80654522b1d984f77755a372</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Diflunisal</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)c1cc(ccc1O)c2ccc(F)cc2F</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/32bb09a963c95e7c2f7006ffdc2cf2fc.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_4a76894d4cd740e896ce7d0ac4aa6084</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Dehydroepiandrosterone (DHEA)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C3[C@]2(CC[C@@H]1[C@@]4(C(=C/C[C@H]1[C@@H]2CC3)\C[C@@H](O)CC4)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/d8972e9188b8271d2d80589610c7fc5d.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_39cfdb61132d4c00a1355c530e885cad</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Tamoxifen</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O(c1ccc(cc1)/C(c2ccccc2)=C(\c3ccccc3)CC)CCN(C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/07ed33789a793ac3f49aef6898d2bb57.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_4c456c1c80e44502a55a18ec5fd2b191</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Flutamide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(Nc1cc(c(cc1)[N+]([O-])=O)C(F)(F)F)C(C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/988326a0df18ade9fab81ac35bbe2560.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_9776f78ecbf54d4cde35b9f979cca3fa</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Epigallocatechin Gallate (EGCG)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O[C@@H]2Cc3c(O[C@@H]2c1cc(O)c(O)c(O)c1)cc(O)cc3O)c4cc(O)c(O)c(O)c4</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/b31e5406e032cc03a85a662711b655d4.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_674008bb6778445ffe579eabb3d24f32</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Brassinin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S=C(SC)NCc2c1ccccc1nc2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/4c4f6216d3b406fd8971af697359d1c3.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_3b41463580a24529a958ea9739c55bbf</uri>
+      </binding>
+      <binding name="Label">
+        <literal>13-cis-Retinoic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C(=O)O)/C)/C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/eef0e8b9906c6b1bbb5c6866ce1e80b1.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_f77912ae198e4d49fa3301983d3d42d9</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ellagic acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1Oc3c2c4c1cc(O)c(O)c4OC(=O)c2cc(O)c3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/33b291acfd5fd9a04dd3c600e289d2ae.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_26f06a7cabcc427e816a219eabb772a4</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Quercetin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1c3c(O/C(=C1/O)c2ccc(O)c(O)c2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/854be50437df48ca01b17c8ba7c4b496.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_aa2e41f54d2f4557eda5bf1c381b7842</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Succinic Acid / Succinate</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CCOC(=O)c1ccncc1S(=O)(=O)Cl</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6e48fd421ac77ae24147b0f5039ec3cb.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_650fd10bd40b4150e7d0e83a67d3e0f2</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Amiloride</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Clc1nc(C(=O)\N=C(/N)N)c(nc1N)N</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/264024cba701365332e52c1765ff0be7.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_c1343453fc7a4e38f32c16e7d98e4800</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Amifostine (WR 2721)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=P(O)(O)SCCNCCCN</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/f1a28e45b9dffd89fc1b002a46c7b9aa.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_03b2dee8b46f4593c70b8e96a3fa12d4</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Indole-3-Carbinol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>OCc2c1ccccc1nc2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6f72a23909e5a6cd20b7f275b9cc5f4f.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_ec834216ef464445ed6077153876575d</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Chelerythrine (6Cl)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O1c3c(OC1)cc2ccc4c5c(c[n+](c4c2c3)C)c(OC)c(OC)cc5</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/1983dab538ed0b2b8275756c5ae46a29.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_cb39e1bb92cb40c1836b411060996321</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ferulic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>COc1cc(ccc1O)/C=C/C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/9568bb2056effc89df9aa46c345e7b45.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_3963930303a0432ae35d3448935736f2</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Vitamin D3-1,25-dihydroxy</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@@H]1CC(\C(=C)[C@@H](O)[C@@H]1OCCCO)=C\C=C2/CCC[C@]3([C@H]2CC[C@@H]3[C@H](C)CCCC(O)(C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/ba5e225b8f395db83e7b92cc593c01ac.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_4ed6cca0379b46708ebb36f0080ba024</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Naringenin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C2c3c(OC(c1ccc(O)cc1)C2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/94322702268c73c0dd9b7acd9dc83a97.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_dece1fc96d6e4dcde2830c8a58f8e74e</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Purpurogallin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>c1cc2cc(c(c(c2c(c(=O)c1)O)O)O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/3a3e649ad2e9cbd71729b27e49dea8a7.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d96ecd3848f74016b1b39d2a35c8b25f</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Flavone (5,7,2’-Trihydroxy)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C(=C/1)c2ccc(O)cc2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/8b03979b04eafb6eabb93b6d85b80784.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_a3cc4c1c545c482ef304dabb38273f1d</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Axerophthene</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C(/C1=C(/CCCC1(C)C)C)=C\C(=C\C=C\C(=C\C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/3cbd1219a338cad3308b2af799beb830.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_c46b72d62ea2489cfd7c26b2fd0b3c27</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Nivalenol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4\C(=C/[C@H]3O[C@H]2C1(OC1)[C@]([C@H](O)[C@H]2O)([C@@]3(CO)[C@@H]4O)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/d46b9124d7d99ee437daed842636da69.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_60a1eaa7ce084a23a0441807fbac9fcf</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Nimesulide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[O-][N+](=O)c2cc(Oc1ccccc1)c(cc2)NS(=O)(=O)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/470c1556367f547b02b0aa6301873e0f.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_96ab704c29014c6dbc0915e3b8d73ef1</uri>
+      </binding>
+      <binding name="Label">
+        <literal>All-trans-Retinoic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=C(C(CCC1)(C)C)/C=C/C(=C\C=C\C(=C\C(=O)O)\C)/C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/b2cd3409ebaa4ee7c09092851593c42b.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_214c99f4a73c42abd09e6113324a8f0c</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Vitamin D3</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@@H]1CC(\C(=C)CC1)=C\C=C2/CCC[C@]3(C2CC[C@@H]3[C@H](C)CCCC(C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/176c4706ff52e03caafcb1fd2c897c79.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_1fe7d9ea320447d0d98fd19745d63458</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Piroxicam</literal>
+      </binding>
+      <binding name="smile">
+        <literal>OC=2c1ccccc1S(=O)(=O)N(C)C=2C(=O)Nc3ccccn3</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/c0ad2aba49112ea70c777c75553a1ba0.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_b88de0fb5c0e428cb3ecb987c90146d5</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ibuprofen</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC(C)Cc1ccc(cc1)C(C)C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/390400a32685c621de645b5949dfcdbb.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_79a6ee3e39c94703f99939a5b253d291</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Probucol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S(c1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C)C(Sc2cc(c(O)c(c2)C(C)(C)C)C(C)(C)C)(C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/0862d64bb0b16d3e8aade37b741596cd.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_08755894e1fe4fe08ecbe658972cdf01</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Erythrosphingosine (L)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CCCCCCCCCCCCC/C=C/[C@H]([C@H](CO)N)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/8998b799e86dd66c21a2b6492c32d0fe.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_bc72b123a56b48d7a73c8d07622016af</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Glycine</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C(C(=O)O)N</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/ba798a91e98c065d4dfc48142c3898d8.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_3120fb07514548eedb2003c7191b2c64</uri>
+      </binding>
+      <binding name="Label">
+        <literal>(-)-EGCG</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O[C@@H]2Cc3c(O[C@@H]2c1cc(O)c(O)c(O)c1)cc(O)cc3O)c4cc(O)c(O)c(O)c4</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/b31e5406e032cc03a85a662711b655d4.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_981d7710dd864e7ca27024d0631a96e3</uri>
+      </binding>
+      <binding name="Label">
+        <literal>PEITC</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S=C=N/CCc1ccccc1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/3b1af05ef721ab0ee62747f0d60147af.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_42f73d539d2147a59529416c9758bced</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Indomethacin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Cc1c(c2cc(ccc2n1C(=O)c3ccc(cc3)Cl)OC)CC(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/3536c5b6602a113ec8ab00ce2243267f.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_3f3c7b25063249ac984db1eedaa49f90</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Arthrotec</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].Clc2cccc(Cl)c2Nc1ccccc1CC([O-])=O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/652685a3b042453be650238f646b4f24.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_688b5d3b5af8479295ecf59e0373c0e6</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Piceatannol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Oc2ccc(\C=C\c1cc(O)cc(O)c1)cc2O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/92256e26cc38fe0bfd831cd6128e08b7.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_26e37fd37ab24503b1488050b295d543</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Maltol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Cc1c(c(=O)cco1)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/4ac18f7872a9d786fbe766e0a5d4676c.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_94fb231c78e14bbdbaa2c58255adfe07</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Piroxicam</literal>
+      </binding>
+      <binding name="smile">
+        <literal>OC=2c1ccccc1S(=O)(=O)N(C)C=2C(=O)Nc3ccccn3</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/c0ad2aba49112ea70c777c75553a1ba0.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_abbce62137c44d938ba398fa9a57743f</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Biochanin A</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C=C/1c2ccc(OC)cc2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/9695766eff9e839608720497b3755efb.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_a6485528b1444b44d44eebdeb6c7c921</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Nordihydroguaiaretic Acid (NDGA)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1O)CC(C)C(C)Cc2ccc(O)c(O)c2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/ca13ff984123730d9dad1e14c1ac75dd.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_c2a725dedd03451adbb22c0c05ad25ce</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Lycopene</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C(\C=C\C=C(\CC/C=C(\C)C)C)(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C=C(\C)CC\C=C(/C)C)C)C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/d94b356326b1435e40091bce32aa9b37.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_1eee18714e3347b9d5a6dc47750346fc</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Aspirin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC(=O)Oc1ccccc1C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/b1d4d881d62b00e0c1337e71d4aebd2e.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_ff38aa0b543c47cebb904680060531d2</uri>
+      </binding>
+      <binding name="Label">
+        <literal>2-Oxothiazolidine-4-Carboxylic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1SCC(C(=O)O)N1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/d1473bb725b0f5041741b895010f61d6.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_9cfc53e8a6944286f75d9a974098b482</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Citral</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C/C=C(/CC/C=C(/C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/76759a6d5365d1796d6255de1d77fae7.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d56002afd7c340b1e88fd909116672bf</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Diallyl Trisulfide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S(SSC\C=C)C\C=C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/bd9318c85ae187ff02927560804cfb4c.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_8800fa9068c54e1be2528f149ef80806</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Oltipraz</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S=C\2SS/C(c1nccnc1)=C/2C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/4ea629aad32965fa5ce961205b1df542.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_29b79408314f45a88ce779002465fb56</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Rhodanine</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1NC(=S)SC1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/4dfec81ec4b7ae469ddf5f6f76ca9eea.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_703e616779de48bbdecc5cfcca6b6e04</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Sulfasalazine</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(=O)(Nc1ccccn1)c3ccc(/N=N/c2cc(C(O)=O)c(O)cc2)cc3</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/3151ca9e29273c0eae749389f0fbef80.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_191735ad5f7f4282f0d5b30c20d9a17c</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Phenidone</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C2NN(c1ccccc1)CC2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/34bd9d0bb327dc03be824758cbbc7ed1.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_4df7f399ccd644cd8e37a8f9bdc02c29</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Rosmarinic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@H](OC(=O)\C=C\c1ccc(O)c(O)c1)Cc2cc(O)c(O)cc2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/61bca6e934e508c74ca3112fe5ce70c4.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_ea160afc9de6481f810ecc067643e1cf</uri>
+      </binding>
+      <binding name="Label">
+        <literal>18-b-Glycyrrhetinic acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@]5(C)C[C@H]4/C3=C/C(=O)[C@H]1[C@](CC[C@@H]2[C@]1(C)CC[C@H](O)C2(C)C)(C)[C@]3(C)CC[C@@]4(C)CC5</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/70f589fc0a7041cdc807e41e692efb9f.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_f825a93ea80c4ee1ed1e72c910ee5807</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Methionine</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CSCCC(C(=O)O)N</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/d9d4a54b2760d33fd3b3dc3e995407ed.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_78032d7b45944cf0aba633351bfd239a</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Azure B</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Cl-].CN(C)c1cc2[s+]c3cc(NC)ccc3nc2cc1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/47242c68e76b6d4539071d4716dae26d.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_72ec5eb7c1e044df87278273a8bc3c9c</uri>
+      </binding>
+      <binding name="Label">
+        <literal>beta-Sitosterol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@@H]4C/C3=C/C[C@@H]1[C@H](CC[C@]2([C@H]1CC[C@@H]2[C@H](C)CC[C@@H](CC)C(C)C)C)[C@@]3(C)CC4</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/75eb9dd2dcbfe01825011f65b288da70.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d9e0832b44434181f620493e3d130898</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Mercaptoethanesulfonic Acid (b)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].[O-]S(=O)(=O)CCS</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6771a2a7afd2e11745bc72f5c26dff84.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d7ef926078194269ad6d7883f49f47c8</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Indole (Phenyl)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>c1cccc2c1ccn2c3ccccc3</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/855cc228fed99dc25d45285d97a960f2.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_b747a8c183b24928de2ce5c9e4e63fd9</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Berbamine Benzoate</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(OCC)c1ccc(cc1)N2C(=O)\C=C/C2=O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/94421859097fe70db475a24bc8fe1db2.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_41f7cfd0fad64185ed961748a4c89b0f</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Bestatin Hydrochloride</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Cl.N[C@H](Cc1ccccc1)[C@H](O)C(=O)NC(CC(C)C)C(O)=O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/cb8afb42a6235027e327c79098068d37.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_4ba7a8477e344026e633319f2a37e708</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Epicatechin Gallate (ECG)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1O)[C@H]3Oc2cc(O)cc(O)c2C[C@H]3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/89fbf0730a1a4f51ed2f974104d7cb56.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_75b3780386bb40aeace78b80659e74ff</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Toremifene Citrate</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)C(O)(CC(=O)O)CC(=O)O.ClCCC(/c1ccccc1)=C(/c2ccc(OCCN(C)C)cc2)c3ccccc3</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/3276a3ad757f8ca9143421f21f350181.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_2876f954dbdf49868f46ea651ad9d01d</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Curcumin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(\C=C\c1ccc(O)c(OC)c1)CC(=O)\C=C\c2cc(OC)c(O)cc2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/958e0defbeafb1a2a969e5981556df01.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_171addffb87c4340fb0125c9ecc24b54</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Catechin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1O)[C@H]3Oc2cc(O)cc(O)c2C[C@@H]3O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/235f5adb6ad22f38ad75c8f37c046c35.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_5c6e47da5a40459fbc234220343da583</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Rhapontin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O(c2cc(O)cc(\C=C\c1ccc(OC)c(O)c1)c2)[C@@H]3O[C@@H]([C@@H](O)[C@H](O)[C@H]3O)CO</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/88daa282f6b5724b8d4ff95c43203331.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_4d13eb3a59164f5ee2b689520ca0947e</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Polyphenols Mixture Tea</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CCN(CC)CC</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/cb620dffad90c436b826a4e2f6dd8a23.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_5d8afcb4416e428eb1fcf8fa6fac9cab</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Resveratrol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>Oc2cc(\C=C\c1ccc(O)cc1)cc(O)c2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/1b6442cdd0eb8bd918256451bc343e55.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_01d0244f1c724378a6c3de86296966f6</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Diallyldisulfide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S(SC\C=C)C\C=C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6b19907d89681776d96bb88e2926b25b.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_0efa133f1dc445988bde5ef72badc73e</uri>
+      </binding>
+      <binding name="Label">
+        <literal>D-Saccharic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/a99659272c4362d36627ff30c0d1d606.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_1cbc53b015da44edba833709c989cf17</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Oleanolic acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@@]54[C@H](/C3=C/C[C@H]1[C@](CC[C@@H]2[C@]1(C)CC[C@H](O)C2(C)C)(C)[C@]3(C)CC4)CC(C)(C)CC5</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/7829bac118ccae2d1d106b883f68d550.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_5159adf8498a42fb826b42f6494a6426</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Taurine</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(=O)(O)CCN</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/972686e0fef3340a2e85ddfe1e7be3a9.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_739278f905dd4a07f71cfbd9be12721c</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Silymarin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4c5c(O)cc(O)cc5O[C@H](c2ccc1O[C@H]([C@@H](Oc1c2)c3ccc(O)c(OC)c3)CO)[C@H]4O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/ac04f342bfc1d8b2e027a7cf445a00af.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_65ee95e8fe744e88ddab8dcbcdc131ac</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Retinyl Glucuronide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O)\C=C(\C=C\C=C(\C=C\C2=C(/C)CCCC2(C)C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/5eab1afa34ceaa983f72636c0bb0f963.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_23d41126743447a2ece247487fb8b783</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Phenacyl-3-Bromo-Bromide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(c1cc(Br)ccc1)CBr</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/1cdcdc254f26826791ebeda3ebbf1601.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_0d9e3a1d0ec442f2d0fa0476f21494b3</uri>
+      </binding>
+      <binding name="Label">
+        <literal>a-Tocopherol Acetate</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(Oc2c(c(c1O[C@](CCc1c2C)(C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/16498f0afdf49169c24bf9dff6e0fef1.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_e8d8679412174150f4955565c9452c3a</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Diallyl Sulfide</literal>
+      </binding>
+      <binding name="smile">
+        <literal>S(C\C=C)C\C=C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/c039e2f07ce5c94df7b3b867f54451c6.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_89c0ffea952e4f4a9b640af69957f068</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Naproxen</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C[C@@H](c1ccc2cc(ccc2c1)OC)C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/b68781e6b0c9ac59927b6fd8acad284e.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_8692728632b643369f8763938a16a812</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Emodin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C2c1cc(cc(O)c1C(=O)c3c2cc(O)cc3O)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/49dc0897ea1fc55e3ba08c6ec64dd948.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_0be7cdd486154e1ac7d55b8214590949</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Tamoxifen-4-Hydroxy</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O(c1ccc(cc1)/C(c2ccc(O)cc2)=C(\c3ccccc3)CC)CCN(C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/008fad19b9e03e1569a7ee676688e5cb.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d53be0fbc6784a3bd00152b232641eb0</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Copper Chlorophyllin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CCCC1=C(c2cc3c(c(c4n3[Cu]n5c(cc6nc(c4)C(=C6CC)C)c(c(c5c(c1n2)CC(=O)O)C(=O)O)C)C=C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/f89e93dbdd048e971e579c01f66b0d66.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_933ab009ed204a45b66fd1772a7f9a8e</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Limonene</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=CCC(CC1)C(=C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/07162de1c6f3cf0a8795266face55bdf.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_b5fdebc6396f424cb3130cf6f511f4c2</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Meclofenamate Sodium</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].Clc2ccc(c(Cl)c2Nc1ccccc1C([O-])=O)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/9246b12ba4b2cac33b6710cbf92df434.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_9ae6ff2d221444f7e49ca3bafcf9bd79</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Benzamide-3-Amino</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(c1cc(N)ccc1)N</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/3b98a1166a78237e87ee163b3cd2eee6.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_1c321028a9f04d2dd037c431dbbde0fc</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Propylene Glycol</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC(CO)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/46a99b0eccb666f4c3d4b894fa66ad2d.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_100e387e84d04bdbc4887c01de3d64cc</uri>
+      </binding>
+      <binding name="Label">
+        <literal>9-cis-Retinoic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)\C=C(\C=C\C=C(\C=C\C1=C(\CCCC1(C)C)C)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/7c9c47fb38d6d3e835f5a32ba836b3f8.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_ec7df5aba9aa44cdbbe27135ea14f751</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ajoene</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(C/C=C/SSC/C=C)C\C=C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/b67e7d134f97aab2049840abee3c1bd7.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_66bc4ac4a41f4d2eadd6c1914148bfad</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Filipin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1OC(C(O)\C=C\C=C\C=C\C=C\C=C(/C)C(O)CC(O)CC(O)CC(O)CC(O)CC(O)CC(O)C1C(O)CCCCC)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/98219ca30a87ba6b7e9326785a8d7038.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_2c756ec6238c4a0d881eee4ee651e30c</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Acetylsalicylic acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC(=O)Oc1ccccc1C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/b1d4d881d62b00e0c1337e71d4aebd2e.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_89d87a6877e64488eb1c911fec4840da</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Myristicin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O1c2cc(cc(OC)c2OC1)C\C=C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/7fd03ec5679ff912cfbe6e2667cc3887.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d7086cbe9ad143f88387664f24397da2</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Acetylcysteine (N) (NAC)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>CC(=O)N[C@@H](CS)C(=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/89bbf07c94e362b1de43f8c314f265f2.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_44fd4f0188f44bef9155966be75af92f</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Perillic Acid</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)\C1=C\CC(\C(=C)C)CC1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/a49c4ba5dd94f6603a340071550a50d9.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_d0ef72be5e32464ef76c8d7c5f26bdd1</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Indole (1-H, 5-ol) (2-(4-hydroxyphenyl)-3-methyl-1-(6-(1-pyrrolidinyl)hexyl)) (ZK 119010)</literal>
+      </binding>
+      <binding name="smile">
+        <literal>c1ccc2c(c1)cc[nH]2</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/cb2f911953f402ac27c55249747ade91.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_20ef21b4b51442bce3f747fce113f746</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Furanone</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1O\C=C/C1</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/ece2050cbb7f3cd003d6cca75e6db765.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_3892afa26cdb42989c72415216fd8458</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Selenite Sodium</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].[O-][Se](=O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/836ee5a28255aed5acae77273c21e115.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_673a83c36e1640eb86ea7ce7ad13c820</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Thiolutin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(NC/2=C/1\SS\C=C\1N(C\2=O)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/ad84aa418d4ba18ee88c07d8a6eaa4ad.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_e90dfcab9394412bd25150f10a545ae3</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Fluasterone</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C3[C@]2(CC[C@@H]1[C@@]4(C(=C/C[C@H]1[C@@H]2C[C@H]3F)\CCCC4)C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/a8d63be6be35856e66cf7fc1a38cbef8.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_56a29824c2bb45efd24f5e2b7f4180ab</uri>
+      </binding>
+      <binding name="Label">
+        <literal>alfa Tocopheryl Succinate</literal>
+      </binding>
+      <binding name="smile">
+        <literal>C(CC(=O)[O-])C(=O)[O-]</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/93811158bad20dd5cbb077020e8c4718.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_e5c77269ef36444fc4699a940c7f483b</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ascorbigen</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@H]3COC4(O)C(O)(Cc2cnc1ccccc12)C(=O)O[C@H]34</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6639464d68eea50abe1630dee72b3e13.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_b65b455cec6c48099384927aaead6673</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Verapamil</literal>
+      </binding>
+      <binding name="smile">
+        <literal>N#CC(c1cc(OC)c(OC)cc1)(CCCN(CCc2ccc(OC)c(OC)c2)C)C(C)C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/6d03e2610da8a1f45fcfb33a035fd2f7.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_85813de4160946ba80dd6388b43371cd</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Theaflavin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>c1c(cc(=O)c(c2c1c(cc(c2O)O)[C@@H]3[C@@H](Cc4c(cc(cc4O3)O)O)O)O)[C@@H]5[C@@H](Cc6c(cc(cc6O5)O)O)O</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/a134a42ede91757a79e12c402ef0d73a.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_275e20af7fd049aead7d1cd8a374b004</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Sodium butyrate</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].[O-]C(=O)CCC</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/facfc252966befb020a11ec5e7f52aa9.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_6a0eb7b9570a4dc4d8ac186a156f9b13</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Ipriflavone</literal>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C=C/1c2ccccc2)cc(OC(C)C)cc3</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/e1b0fd8c4cbe7098a93730f5404024ce.sdf</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_c77bd408c4e34bcfc1a007e2dbd8fefb</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Sinigrin</literal>
+      </binding>
+      <binding name="smile">
+        <literal>[K+].[O-]S(=O)(=O)O\N=C(/S[C@@H]1O[C@@H]([C@@H](O)[C@H](O)[C@H]1O)CO)C\C=C</literal>
+      </binding>
+      <binding name="sdf">
+        <uri>http://hcls.deri.org/c2sma/cache/46af7a6df54d819ba8315b4bf0795429.sdf</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>

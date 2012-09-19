@@ -12,10 +12,7 @@ import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
-
-
-
+import java.util.logging.Level;
 
 /**
  * Created with IntelliJ IDEA.
@@ -33,19 +30,64 @@ public class SearchBean {
     private String annotations;
     private String drugs;
     private String searchterm;
+    int chemoLength = 0;
+    int molLength = 0;
+    int drugsLength = 0;
     private List<Sparql.Results.Result> allResults;
     private List<Sparql.Results.Result> documentResults;
     private List<Sparql.Results.Result> imageResults;
     private List<Sparql.Results.Result> forumResults;
     private List<Sparql.Results.Result> clinicalResults;
     private List<Sparql.Results.Result> drugResults;
-    
+    private List<Sparql.Results.Result> chemoResults;
+    private List<Sparql.Results.Result> molResults;    
 
     final Logger logger = LoggerFactory.getLogger(SearchBean.class);
 
     public SearchBean() {
     }
 
+    public List<Result> getMolResults() {
+        return molResults;
+    }
+
+    public void setMolResults(List<Result> molResults) {
+        this.molResults = molResults;
+    }
+
+    public int getMolLength() {
+        return molLength;
+    }
+
+    public void setMolLength(int molLength) {
+        this.molLength = molLength;
+    }
+
+    public int getDrugsLength() {
+        return drugsLength;
+    }
+
+    public void setDrugsLength(int drugsLength) {
+        this.drugsLength = drugsLength;
+    }
+
+
+    public List<Result> getChemoResults() {
+        return chemoResults;
+    }
+
+    public void setChemoResults(List<Result> chemoResults) {
+        this.chemoResults = chemoResults;
+    }
+
+    public int getChemoLength() {
+        return this.chemoLength;
+    }
+
+    public void setChemoLength(int chemoLength) {
+        this.chemoLength = chemoLength;
+    }
+    
     public String getAnnotations() {
         return annotations;
     }
@@ -127,7 +169,7 @@ public class SearchBean {
     public void doSearch(){
         //Actual Web Service Invocation
         //TODO otan i danai ksekoulathei
-
+        setChemoResults(null);
         //mock Web Service Invocation
         try{
             logger.info( "Working path: "+new java.io.File(".").getCanonicalPath()  );
@@ -141,17 +183,43 @@ public class SearchBean {
         if (annotations.trim().equalsIgnoreCase("0")){  //search1.xml
             parseMockXMLFile("sample1.xml");
         }
-        if (annotations.trim().equalsIgnoreCase("1")){ //search2.xml
-            parseMockXMLFile("sample2.xml");
+        
+        if (annotations.trim().equalsIgnoreCase("1")){
+            DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?ChemoAgent ?Label ?smile ?sdf WHERE { ?ChemoAgent a <http://chem.deri.ie/granatum/ChemopreventiveAgent>. ?ChemoAgent <http://www.w3.org/2000/01/rdf-schema#label> ?Label. ?ChemoAgent <http://bio2rdf.org/ns/ns/ns/pubchem#SMILES> ?smile.?ChemoAgent <http://chem.deri.ie/granatum/sdf_file> ?sdf. filter regex(?Label,\""+ searchterm +"\",\"i\").}");
+            try {            
+                d.getAssociatedEntities();
+            } catch (Throwable ex) {
+                java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            parseXMLFile("D:\\tmp\\resp.xml");
         }
 
+        if (annotations.trim().equalsIgnoreCase("2")){
+            DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?mol ?label ?smile ?sameas WHERE { ?mol a <http://chem.deri.ie/granatum/Molecule>. ?mol <http://www.w3.org/2000/01/rdf-schema#label> ?label. ?mol <http://bio2rdf.org/ns/bio2rdf#smiles> ?smile. ?mol <http://bio2rdf.org/ns/bio2rdf#sameAs> ?sameas. filter regex(?label,\"" + searchterm + "\",\"i\").}");
+            try {            
+                d.getAssociatedEntities();
+            } catch (Throwable ex) {
+                java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            parseXMLFile("D:\\tmp\\resp.xml");
+        }        
+        
+        if (annotations.trim().equalsIgnoreCase("3")){
+            DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?Drug ?label WHERE { ?Drug a <http://chem.deri.ie/granatum/Drug>. ?Drug <http://www.w3.org/2000/01/rdf-schema#label> ?label. filter regex(?label,\""+searchterm+"\",\"i\").}");
+            try {            
+                d.getAssociatedEntities();
+            } catch (Throwable ex) {
+                java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            parseXMLFile("D:\\tmp\\resp.xml");
+        }          
     }
 
-    private void parseMockXMLFile(String filename){
+    private void parseXMLFile(String filename){
         try{
             JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
             Unmarshaller u = jc.createUnmarshaller();
-            Object f = u.unmarshal( new File( "/home/ubiadmin/appservers/jboss711final/bin/"+filename ) );
+            Object f = u.unmarshal( new File(filename ) );
             Sparql sparql =(Sparql) f;
             List<Object> list = sparql.getHeadOrResults();
 
@@ -170,7 +238,9 @@ public class SearchBean {
                     imageResults = new ArrayList<Sparql.Results.Result>();
                     forumResults = new ArrayList<Sparql.Results.Result>();
                     clinicalResults = new ArrayList<Sparql.Results.Result>();
-                    drugResults = new ArrayList<Sparql.Results.Result>();                    
+                    drugResults = new ArrayList<Sparql.Results.Result>();  
+                    chemoResults = new ArrayList<Sparql.Results.Result>();
+                    molResults = new ArrayList<Sparql.Results.Result>();
                     
                     for (int j = 0; j < allResults.size(); j++) {
                         Sparql.Results.Result res = allResults.get(j);
@@ -197,7 +267,80 @@ public class SearchBean {
                             //add them to drugs
                             drugResults.add(res);
                         }
+                        if (binding.getName().trim().startsWith("ChemoAgent")) {
+                            chemoResults.add(res);
+                        }                        
+                        if (binding.getName().trim().startsWith("mol")) {
+                            molResults.add(res);
+                        }                                                
+                    }
+                }
+
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
+        this.chemoLength = chemoResults.size();
+    }//EoM
+    
+    
+    private void parseMockXMLFile(String filename){
+        try{
+            JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
+            Unmarshaller u = jc.createUnmarshaller();
+            Object f = u.unmarshal( new File( "C:\\projects\\granatumbqi\\target\\test-classes\\"+filename ) );
+            Sparql sparql =(Sparql) f;
+            List<Object> list = sparql.getHeadOrResults();
+
+            for (int i = 0; i < list.size(); i++) {
+                Object o =  list.get(i);
+                if (o instanceof Sparql.Head){
+                    Sparql.Head head = (Sparql.Head) o;
+
+                }
+                if (o instanceof Sparql.Results){
+                    //set results
+                    Sparql.Results results = (Sparql.Results) o;
+                    allResults = results.getResult();
+                    //Reset Lists
+                    documentResults = new ArrayList<Sparql.Results.Result>();
+                    imageResults = new ArrayList<Sparql.Results.Result>();
+                    forumResults = new ArrayList<Sparql.Results.Result>();
+                    clinicalResults = new ArrayList<Sparql.Results.Result>();
+                    drugResults = new ArrayList<Sparql.Results.Result>();  
+                    chemoResults = new ArrayList<Sparql.Results.Result>();
+                    
+                    for (int j = 0; j < allResults.size(); j++) {
+                        Sparql.Results.Result res = allResults.get(j);
                         
+                        Sparql.Results.Result.Binding binding = res.getBinding().get(0);
+                        if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/PublishedWork")) {
+                            //add to document
+                            documentResults.add(res);
+                        }
+                        
+                        if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/diagram2D")) {
+                            //add them to images
+                            imageResults.add(res);
+                        }                        
+                        if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/ForumPost")) {
+                            //add them to images
+                            forumResults.add(res);
+                        }                        
+                        if (binding.getUri().trim().startsWith("http://chem.deri.ie/granatum/ClinicalTrial")) {
+                            //add them to images
+                            clinicalResults.add(res);
+                        }
+                        if (binding.getName().trim().startsWith("Drug")) {
+                            //add them to drugs
+                            drugResults.add(res);
+                        }
+                        if (binding.getName().trim().startsWith("ChemoAgent")) {
+                            chemoResults.add(res);
+                        }                        
                         
                     }
                 }

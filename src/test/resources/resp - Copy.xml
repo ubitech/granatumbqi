@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+  <head>
+    <variable name="cagent"/>
+    <variable name="smile"/>
+    <variable name="name"/>
+  </head>
+  <results>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_0673fccd6e994e80a1cba30fa5aabd6b</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(Oc1ccc(cc1)CC(=O)OCC(=O)N(C)C)c2ccc(/N=C(\N)N)cc2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Camostat</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_563392a5cb064002df8e08b67434e7d7</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Ca+2].[O-]C(=O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C([O-])=O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Glucarate Calcium</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_da796bd4ee524659b4d5e393feb3dafa</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Clc1ccc(cc1)C(CN)CC(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Baclofen</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_8ddeccc67202411d801581d23408a85b</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4[C@@H]5Oc1c2c(ccc1O)C[C@H]3N(CC[C@]25[C@@]3(O)CC4)CC6CC6</literal>
+      </binding>
+      <binding name="name">
+        <literal>Naltrexone</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_ff5bf931cb194ec0b05e5f1fa620649a</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C([C@@H](C(=O)O)N)S</literal>
+      </binding>
+      <binding name="name">
+        <literal>Cysteine (L) (S-allyl)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_3d340e5fc14e4974d173bd1c4c3922a3</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S=C2Nc1ncnc1C(=S)N2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Purine 2,6 Dithiol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_59ad482c9ee44da7c59eeb4837c36580</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4c5c(O)cc(O)cc5O[C@H](c2ccc1O[C@@H]([C@H](Oc1c2)c3ccc(O)c(OC)c3)CO)[C@H]4O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Silymarin (µg/ml)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_904575d511424c80b5afb19119d26679</uri>
+      </binding>
+      <binding name="smile">
+        <literal>N1CCOS1</literal>
+      </binding>
+      <binding name="name">
+        <literal>Oxathiazolidine</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_0d7bdb60e420469fcb3d271ca30fb132</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1)C\3=C\Oc2cc(O)cc(O)c2C/3=O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Genistein</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_12c5c5b29c734851cacc0502f7a1d9f4</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ascorbic acid (vit. C)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_12c5c5b29c734851cacc0502f7a1d9f4</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ascorbic acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_cd8a46241580487ace3ba47dd4119547</uri>
+      </binding>
+      <binding name="smile">
+        <literal>OCc2c1ccccc1nc2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Indole-3-carbinol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_aefc5f6b8cfd426792367af83b1512c0</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S(C\C=C)C\C=C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Diallylsulfide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_81a37991d9c44a6ebc9447a6b9b88a37</uri>
+      </binding>
+      <binding name="smile">
+        <literal>OC/C1=C/CC(\C(=C)C)CC1</literal>
+      </binding>
+      <binding name="name">
+        <literal>Perillyl Alcohol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_bbb53ac9dbe64435f52903dc10f26dbd</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1c3c(O/C(=C1/O)c2ccc(O)c(O)c2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Quercetin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_af12d446c76c432cc04132e0e7d1e809</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)C2(Oc1c(c(c(O)c(c1CC2)C)C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Trolox</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_9d0c8eb26b854f2782a4259644ad8828</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4[C@@]6(C)[C@@]72O[C@@H]7C(=O)O[C@@H](c1ccoc1)[C@]2(C)CC[C@@H]6[C@]35COC(=O)C[C@@H]5OC([C@@H]3C4)(C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Limonin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_a2ded7c721a64d01fa401c02abf727f2</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C(=C/C(=O)O)\C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Fumaric Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_72f43f116f264d9ccb1b56444f3f37c4</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Cn1c2c(c(=O)n(c1=O)C)[nH]cn2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Theophylline</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_839f9941725e42349a9467695a11dadb</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC(N)CN</literal>
+      </binding>
+      <binding name="name">
+        <literal>Propane-1,3-Diamino</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_14085d5482b74882d44de12a1decac5d</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CCCC(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Butyric Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_6a123ae4d9964d42bc0a5f406db10484</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Clc3cccc(N2CCN(CCCN1/N=C(\N(C1=O)CC)CC)CC2)c3</literal>
+      </binding>
+      <binding name="name">
+        <literal>Etoperidone</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_8ee85e2f092844f5b27f22969b944454</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(\C=C\c1ccc(O)c(OC)c1)CC(=O)\C=C\c2cc(OC)c(O)cc2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Curcumin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_972dba0708294ab1ffce4de200d39a2c</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O2C1(CCC(CC1)C2(C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Cineole</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_213529c2d4cc4539a3d0c576e5e00dc2</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C/2Oc1cc(O)c(O)cc1\C=C\2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Esculetin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_3c80b0e5d74d4880d0af4ddf88528025</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Ca+2].[O-]C(=O)CCCC([O-])=O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Glutarate Calcium</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_63b8d28c1cd94bb9f4c34251c2231062</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S=C1N\C(=C/N1)C[C@@H](C([O-])=O)[N+](C)(C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ergothioneine</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_06a59324ae574f16dc4de4a7ede3b73c</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(c1ccccc1)C(Br)Br</literal>
+      </binding>
+      <binding name="name">
+        <literal>Acetophenone (dibromo)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_8d6197da8e494ebfde013b5d9a6563c4</uri>
+      </binding>
+      <binding name="smile">
+        <literal>c1cc(ccc1/C=C/C(=O)c2ccc(cc2O)O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Chalcone-(4,2’,4’- trihydroxy)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_4de511bd4137455ccb656dd3a79f9362</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CN(C)c1ccc2c(c1)sc-3cc(=[N+](C)C)ccc3n2.[Cl-]</literal>
+      </binding>
+      <binding name="name">
+        <literal>Methylene Blue</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_7c3f3b8ed1524ac3d0020beac2d2d2c5</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(c1ccc(cc1)\C=C3/c2ccc(F)cc2\C(=C3C)CC(=O)O)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Sulindac</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_01956ee5ce4f433ed488a53cae8f8ee3</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=CCC(CC1)C(=C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Limonene</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d0afb08718f84127e7cadd79becb7742</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1Oc3c2c4c1cc(O)c(O)c4OC(=O)c2cc(O)c3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ellagic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_5d3b92ec3c8a432bbf81e7ad05a9bef4</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C(=C/1)c2ccc(O)cc2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Apigenin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d0a74cc114644ccda90ef1d330e790d3</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C[C@]1(c2cccc(c2C(=O)C3=C([C@]4([C@@H](C[C@@H]31)[C@@H](C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Tetracycline</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_edd233db80654522b1d984f77755a372</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)c1cc(ccc1O)c2ccc(F)cc2F</literal>
+      </binding>
+      <binding name="name">
+        <literal>Diflunisal</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_4a76894d4cd740e896ce7d0ac4aa6084</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C3[C@]2(CC[C@@H]1[C@@]4(C(=C/C[C@H]1[C@@H]2CC3)\C[C@@H](O)CC4)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Dehydroepiandrosterone (DHEA)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_39cfdb61132d4c00a1355c530e885cad</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O(c1ccc(cc1)/C(c2ccccc2)=C(\c3ccccc3)CC)CCN(C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Tamoxifen</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_4c456c1c80e44502a55a18ec5fd2b191</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(Nc1cc(c(cc1)[N+]([O-])=O)C(F)(F)F)C(C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Flutamide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_9776f78ecbf54d4cde35b9f979cca3fa</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O[C@@H]2Cc3c(O[C@@H]2c1cc(O)c(O)c(O)c1)cc(O)cc3O)c4cc(O)c(O)c(O)c4</literal>
+      </binding>
+      <binding name="name">
+        <literal>Epigallocatechin Gallate (EGCG)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_674008bb6778445ffe579eabb3d24f32</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S=C(SC)NCc2c1ccccc1nc2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Brassinin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_3b41463580a24529a958ea9739c55bbf</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C(=O)O)/C)/C</literal>
+      </binding>
+      <binding name="name">
+        <literal>13-cis-Retinoic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_f77912ae198e4d49fa3301983d3d42d9</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1Oc3c2c4c1cc(O)c(O)c4OC(=O)c2cc(O)c3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ellagic acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_26f06a7cabcc427e816a219eabb772a4</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1c3c(O/C(=C1/O)c2ccc(O)c(O)c2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Quercetin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_aa2e41f54d2f4557eda5bf1c381b7842</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CCOC(=O)c1ccncc1S(=O)(=O)Cl</literal>
+      </binding>
+      <binding name="name">
+        <literal>Succinic Acid / Succinate</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_650fd10bd40b4150e7d0e83a67d3e0f2</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Clc1nc(C(=O)\N=C(/N)N)c(nc1N)N</literal>
+      </binding>
+      <binding name="name">
+        <literal>Amiloride</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_c1343453fc7a4e38f32c16e7d98e4800</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=P(O)(O)SCCNCCCN</literal>
+      </binding>
+      <binding name="name">
+        <literal>Amifostine (WR 2721)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_03b2dee8b46f4593c70b8e96a3fa12d4</uri>
+      </binding>
+      <binding name="smile">
+        <literal>OCc2c1ccccc1nc2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Indole-3-Carbinol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_ec834216ef464445ed6077153876575d</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O1c3c(OC1)cc2ccc4c5c(c[n+](c4c2c3)C)c(OC)c(OC)cc5</literal>
+      </binding>
+      <binding name="name">
+        <literal>Chelerythrine (6Cl)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_cb39e1bb92cb40c1836b411060996321</uri>
+      </binding>
+      <binding name="smile">
+        <literal>COc1cc(ccc1O)/C=C/C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ferulic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_3963930303a0432ae35d3448935736f2</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@@H]1CC(\C(=C)[C@@H](O)[C@@H]1OCCCO)=C\C=C2/CCC[C@]3([C@H]2CC[C@@H]3[C@H](C)CCCC(O)(C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Vitamin D3-1,25-dihydroxy</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_4ed6cca0379b46708ebb36f0080ba024</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C2c3c(OC(c1ccc(O)cc1)C2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Naringenin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_dece1fc96d6e4dcde2830c8a58f8e74e</uri>
+      </binding>
+      <binding name="smile">
+        <literal>c1cc2cc(c(c(c2c(c(=O)c1)O)O)O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Purpurogallin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d96ecd3848f74016b1b39d2a35c8b25f</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C(=C/1)c2ccc(O)cc2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Flavone (5,7,2’-Trihydroxy)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_a3cc4c1c545c482ef304dabb38273f1d</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C(/C1=C(/CCCC1(C)C)C)=C\C(=C\C=C\C(=C\C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Axerophthene</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_c46b72d62ea2489cfd7c26b2fd0b3c27</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4\C(=C/[C@H]3O[C@H]2C1(OC1)[C@]([C@H](O)[C@H]2O)([C@@]3(CO)[C@@H]4O)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Nivalenol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_60a1eaa7ce084a23a0441807fbac9fcf</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[O-][N+](=O)c2cc(Oc1ccccc1)c(cc2)NS(=O)(=O)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Nimesulide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_96ab704c29014c6dbc0915e3b8d73ef1</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=C(C(CCC1)(C)C)/C=C/C(=C\C=C\C(=C\C(=O)O)\C)/C</literal>
+      </binding>
+      <binding name="name">
+        <literal>All-trans-Retinoic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_214c99f4a73c42abd09e6113324a8f0c</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@@H]1CC(\C(=C)CC1)=C\C=C2/CCC[C@]3(C2CC[C@@H]3[C@H](C)CCCC(C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Vitamin D3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_1fe7d9ea320447d0d98fd19745d63458</uri>
+      </binding>
+      <binding name="smile">
+        <literal>OC=2c1ccccc1S(=O)(=O)N(C)C=2C(=O)Nc3ccccn3</literal>
+      </binding>
+      <binding name="name">
+        <literal>Piroxicam</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_b88de0fb5c0e428cb3ecb987c90146d5</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC(C)Cc1ccc(cc1)C(C)C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ibuprofen</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_79a6ee3e39c94703f99939a5b253d291</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S(c1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C)C(Sc2cc(c(O)c(c2)C(C)(C)C)C(C)(C)C)(C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Probucol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_08755894e1fe4fe08ecbe658972cdf01</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CCCCCCCCCCCCC/C=C/[C@H]([C@H](CO)N)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Erythrosphingosine (L)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_bc72b123a56b48d7a73c8d07622016af</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C(C(=O)O)N</literal>
+      </binding>
+      <binding name="name">
+        <literal>Glycine</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_3120fb07514548eedb2003c7191b2c64</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O[C@@H]2Cc3c(O[C@@H]2c1cc(O)c(O)c(O)c1)cc(O)cc3O)c4cc(O)c(O)c(O)c4</literal>
+      </binding>
+      <binding name="name">
+        <literal>(-)-EGCG</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_981d7710dd864e7ca27024d0631a96e3</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S=C=N/CCc1ccccc1</literal>
+      </binding>
+      <binding name="name">
+        <literal>PEITC</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_42f73d539d2147a59529416c9758bced</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Cc1c(c2cc(ccc2n1C(=O)c3ccc(cc3)Cl)OC)CC(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Indomethacin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_3f3c7b25063249ac984db1eedaa49f90</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].Clc2cccc(Cl)c2Nc1ccccc1CC([O-])=O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Arthrotec</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_688b5d3b5af8479295ecf59e0373c0e6</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Oc2ccc(\C=C\c1cc(O)cc(O)c1)cc2O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Piceatannol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_26e37fd37ab24503b1488050b295d543</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Cc1c(c(=O)cco1)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Maltol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_94fb231c78e14bbdbaa2c58255adfe07</uri>
+      </binding>
+      <binding name="smile">
+        <literal>OC=2c1ccccc1S(=O)(=O)N(C)C=2C(=O)Nc3ccccn3</literal>
+      </binding>
+      <binding name="name">
+        <literal>Piroxicam</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_abbce62137c44d938ba398fa9a57743f</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C=C/1c2ccc(OC)cc2)cc(O)cc3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Biochanin A</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_a6485528b1444b44d44eebdeb6c7c921</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1O)CC(C)C(C)Cc2ccc(O)c(O)c2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Nordihydroguaiaretic Acid (NDGA)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_c2a725dedd03451adbb22c0c05ad25ce</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C(\C=C\C=C(\CC/C=C(\C)C)C)(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C=C(\C)CC\C=C(/C)C)C)C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Lycopene</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_1eee18714e3347b9d5a6dc47750346fc</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC(=O)Oc1ccccc1C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Aspirin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_ff38aa0b543c47cebb904680060531d2</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1SCC(C(=O)O)N1</literal>
+      </binding>
+      <binding name="name">
+        <literal>2-Oxothiazolidine-4-Carboxylic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_9cfc53e8a6944286f75d9a974098b482</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C/C=C(/CC/C=C(/C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Citral</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d56002afd7c340b1e88fd909116672bf</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S(SSC\C=C)C\C=C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Diallyl Trisulfide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_8800fa9068c54e1be2528f149ef80806</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S=C\2SS/C(c1nccnc1)=C/2C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Oltipraz</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_29b79408314f45a88ce779002465fb56</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1NC(=S)SC1</literal>
+      </binding>
+      <binding name="name">
+        <literal>Rhodanine</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_703e616779de48bbdecc5cfcca6b6e04</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(=O)(Nc1ccccn1)c3ccc(/N=N/c2cc(C(O)=O)c(O)cc2)cc3</literal>
+      </binding>
+      <binding name="name">
+        <literal>Sulfasalazine</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_191735ad5f7f4282f0d5b30c20d9a17c</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C2NN(c1ccccc1)CC2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Phenidone</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_4df7f399ccd644cd8e37a8f9bdc02c29</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@H](OC(=O)\C=C\c1ccc(O)c(O)c1)Cc2cc(O)c(O)cc2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Rosmarinic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_ea160afc9de6481f810ecc067643e1cf</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@]5(C)C[C@H]4/C3=C/C(=O)[C@H]1[C@](CC[C@@H]2[C@]1(C)CC[C@H](O)C2(C)C)(C)[C@]3(C)CC[C@@]4(C)CC5</literal>
+      </binding>
+      <binding name="name">
+        <literal>18-b-Glycyrrhetinic acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_f825a93ea80c4ee1ed1e72c910ee5807</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CSCCC(C(=O)O)N</literal>
+      </binding>
+      <binding name="name">
+        <literal>Methionine</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_78032d7b45944cf0aba633351bfd239a</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Cl-].CN(C)c1cc2[s+]c3cc(NC)ccc3nc2cc1</literal>
+      </binding>
+      <binding name="name">
+        <literal>Azure B</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_72ec5eb7c1e044df87278273a8bc3c9c</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@@H]4C/C3=C/C[C@@H]1[C@H](CC[C@]2([C@H]1CC[C@@H]2[C@H](C)CC[C@@H](CC)C(C)C)C)[C@@]3(C)CC4</literal>
+      </binding>
+      <binding name="name">
+        <literal>beta-Sitosterol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d9e0832b44434181f620493e3d130898</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].[O-]S(=O)(=O)CCS</literal>
+      </binding>
+      <binding name="name">
+        <literal>Mercaptoethanesulfonic Acid (b)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d7ef926078194269ad6d7883f49f47c8</uri>
+      </binding>
+      <binding name="smile">
+        <literal>c1cccc2c1ccn2c3ccccc3</literal>
+      </binding>
+      <binding name="name">
+        <literal>Indole (Phenyl)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_b747a8c183b24928de2ce5c9e4e63fd9</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(OCC)c1ccc(cc1)N2C(=O)\C=C/C2=O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Berbamine Benzoate</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_41f7cfd0fad64185ed961748a4c89b0f</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Cl.N[C@H](Cc1ccccc1)[C@H](O)C(=O)NC(CC(C)C)C(O)=O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Bestatin Hydrochloride</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_4ba7a8477e344026e633319f2a37e708</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1O)[C@H]3Oc2cc(O)cc(O)c2C[C@H]3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Epicatechin Gallate (ECG)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_75b3780386bb40aeace78b80659e74ff</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)C(O)(CC(=O)O)CC(=O)O.ClCCC(/c1ccccc1)=C(/c2ccc(OCCN(C)C)cc2)c3ccccc3</literal>
+      </binding>
+      <binding name="name">
+        <literal>Toremifene Citrate</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_2876f954dbdf49868f46ea651ad9d01d</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(\C=C\c1ccc(O)c(OC)c1)CC(=O)\C=C\c2cc(OC)c(O)cc2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Curcumin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_171addffb87c4340fb0125c9ecc24b54</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Oc1ccc(cc1O)[C@H]3Oc2cc(O)cc(O)c2C[C@@H]3O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Catechin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_5c6e47da5a40459fbc234220343da583</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O(c2cc(O)cc(\C=C\c1ccc(OC)c(O)c1)c2)[C@@H]3O[C@@H]([C@@H](O)[C@H](O)[C@H]3O)CO</literal>
+      </binding>
+      <binding name="name">
+        <literal>Rhapontin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_4d13eb3a59164f5ee2b689520ca0947e</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CCN(CC)CC</literal>
+      </binding>
+      <binding name="name">
+        <literal>Polyphenols Mixture Tea</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_5d8afcb4416e428eb1fcf8fa6fac9cab</uri>
+      </binding>
+      <binding name="smile">
+        <literal>Oc2cc(\C=C\c1ccc(O)cc1)cc(O)c2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Resveratrol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_01d0244f1c724378a6c3de86296966f6</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S(SC\C=C)C\C=C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Diallyldisulfide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_0efa133f1dc445988bde5ef72badc73e</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>D-Saccharic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_1cbc53b015da44edba833709c989cf17</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)[C@@]54[C@H](/C3=C/C[C@H]1[C@](CC[C@@H]2[C@]1(C)CC[C@H](O)C2(C)C)(C)[C@]3(C)CC4)CC(C)(C)CC5</literal>
+      </binding>
+      <binding name="name">
+        <literal>Oleanolic acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_5159adf8498a42fb826b42f6494a6426</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(=O)(O)CCN</literal>
+      </binding>
+      <binding name="name">
+        <literal>Taurine</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_739278f905dd4a07f71cfbd9be12721c</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C4c5c(O)cc(O)cc5O[C@H](c2ccc1O[C@H]([C@@H](Oc1c2)c3ccc(O)c(OC)c3)CO)[C@H]4O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Silymarin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_65ee95e8fe744e88ddab8dcbcdc131ac</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O)\C=C(\C=C\C=C(\C=C\C2=C(/C)CCCC2(C)C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Retinyl Glucuronide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_23d41126743447a2ece247487fb8b783</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(c1cc(Br)ccc1)CBr</literal>
+      </binding>
+      <binding name="name">
+        <literal>Phenacyl-3-Bromo-Bromide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_0d9e3a1d0ec442f2d0fa0476f21494b3</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(Oc2c(c(c1O[C@](CCc1c2C)(C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>a-Tocopherol Acetate</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_e8d8679412174150f4955565c9452c3a</uri>
+      </binding>
+      <binding name="smile">
+        <literal>S(C\C=C)C\C=C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Diallyl Sulfide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_89c0ffea952e4f4a9b640af69957f068</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C[C@@H](c1ccc2cc(ccc2c1)OC)C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Naproxen</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_8692728632b643369f8763938a16a812</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C2c1cc(cc(O)c1C(=O)c3c2cc(O)cc3O)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Emodin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_0be7cdd486154e1ac7d55b8214590949</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O(c1ccc(cc1)/C(c2ccc(O)cc2)=C(\c3ccccc3)CC)CCN(C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Tamoxifen-4-Hydroxy</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d53be0fbc6784a3bd00152b232641eb0</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CCCC1=C(c2cc3c(c(c4n3[Cu]n5c(cc6nc(c4)C(=C6CC)C)c(c(c5c(c1n2)CC(=O)O)C(=O)O)C)C=C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Copper Chlorophyllin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_933ab009ed204a45b66fd1772a7f9a8e</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC1=CCC(CC1)C(=C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Limonene</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_b5fdebc6396f424cb3130cf6f511f4c2</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].Clc2ccc(c(Cl)c2Nc1ccccc1C([O-])=O)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Meclofenamate Sodium</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_9ae6ff2d221444f7e49ca3bafcf9bd79</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(c1cc(N)ccc1)N</literal>
+      </binding>
+      <binding name="name">
+        <literal>Benzamide-3-Amino</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_1c321028a9f04d2dd037c431dbbde0fc</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC(CO)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Propylene Glycol</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_100e387e84d04bdbc4887c01de3d64cc</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)\C=C(\C=C\C=C(\C=C\C1=C(\CCCC1(C)C)C)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>9-cis-Retinoic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_ec7df5aba9aa44cdbbe27135ea14f751</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=S(C/C=C/SSC/C=C)C\C=C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ajoene</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_66bc4ac4a41f4d2eadd6c1914148bfad</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1OC(C(O)\C=C\C=C\C=C\C=C\C=C(/C)C(O)CC(O)CC(O)CC(O)CC(O)CC(O)CC(O)C1C(O)CCCCC)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Filipin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_2c756ec6238c4a0d881eee4ee651e30c</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC(=O)Oc1ccccc1C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Acetylsalicylic acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_89d87a6877e64488eb1c911fec4840da</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O1c2cc(cc(OC)c2OC1)C\C=C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Myristicin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d7086cbe9ad143f88387664f24397da2</uri>
+      </binding>
+      <binding name="smile">
+        <literal>CC(=O)N[C@@H](CS)C(=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Acetylcysteine (N) (NAC)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_44fd4f0188f44bef9155966be75af92f</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(O)\C1=C\CC(\C(=C)C)CC1</literal>
+      </binding>
+      <binding name="name">
+        <literal>Perillic Acid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_d0ef72be5e32464ef76c8d7c5f26bdd1</uri>
+      </binding>
+      <binding name="smile">
+        <literal>c1ccc2c(c1)cc[nH]2</literal>
+      </binding>
+      <binding name="name">
+        <literal>Indole (1-H, 5-ol) (2-(4-hydroxyphenyl)-3-methyl-1-(6-(1-pyrrolidinyl)hexyl)) (ZK 119010)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_20ef21b4b51442bce3f747fce113f746</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C1O\C=C/C1</literal>
+      </binding>
+      <binding name="name">
+        <literal>Furanone</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_3892afa26cdb42989c72415216fd8458</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].[O-][Se](=O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Selenite Sodium</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_673a83c36e1640eb86ea7ce7ad13c820</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C(NC/2=C/1\SS\C=C\1N(C\2=O)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Thiolutin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_e90dfcab9394412bd25150f10a545ae3</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C3[C@]2(CC[C@@H]1[C@@]4(C(=C/C[C@H]1[C@@H]2C[C@H]3F)\CCCC4)C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Fluasterone</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_56a29824c2bb45efd24f5e2b7f4180ab</uri>
+      </binding>
+      <binding name="smile">
+        <literal>C(CC(=O)[O-])C(=O)[O-]</literal>
+      </binding>
+      <binding name="name">
+        <literal>alfa Tocopheryl Succinate</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_e5c77269ef36444fc4699a940c7f483b</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O[C@H]3COC4(O)C(O)(Cc2cnc1ccccc12)C(=O)O[C@H]34</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ascorbigen</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_b65b455cec6c48099384927aaead6673</uri>
+      </binding>
+      <binding name="smile">
+        <literal>N#CC(c1cc(OC)c(OC)cc1)(CCCN(CCc2ccc(OC)c(OC)c2)C)C(C)C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Verapamil</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_85813de4160946ba80dd6388b43371cd</uri>
+      </binding>
+      <binding name="smile">
+        <literal>c1c(cc(=O)c(c2c1c(cc(c2O)O)[C@@H]3[C@@H](Cc4c(cc(cc4O3)O)O)O)O)[C@@H]5[C@@H](Cc6c(cc(cc6O5)O)O)O</literal>
+      </binding>
+      <binding name="name">
+        <literal>Theaflavin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_275e20af7fd049aead7d1cd8a374b004</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[Na+].[O-]C(=O)CCC</literal>
+      </binding>
+      <binding name="name">
+        <literal>Sodium butyrate</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_6a0eb7b9570a4dc4d8ac186a156f9b13</uri>
+      </binding>
+      <binding name="smile">
+        <literal>O=C\1c3c(O/C=C/1c2ccccc2)cc(OC(C)C)cc3</literal>
+      </binding>
+      <binding name="name">
+        <literal>Ipriflavone</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="cagent">
+        <uri>http://chem.deri.ie/granatum/cma_c77bd408c4e34bcfc1a007e2dbd8fefb</uri>
+      </binding>
+      <binding name="smile">
+        <literal>[K+].[O-]S(=O)(=O)O\N=C(/S[C@@H]1O[C@@H]([C@@H](O)[C@H](O)[C@H]1O)CO)C\C=C</literal>
+      </binding>
+      <binding name="name">
+        <literal>Sinigrin</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

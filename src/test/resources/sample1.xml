@@ -12,13 +12,13 @@
 				<uri>http://chem.deri.ie/granatum/PublishedWork</uri>
 			</binding>
 			<binding name="URI">
-				<uri></uri>
+				<literal>Gustine D.L</literal>
 			</binding>
 			<binding name="Label">
-				<literal>Document1</literal>
+				<literal>A strategy for cloning apomixis-associated cDNA markers from buffelgrass</literal>
 			</binding>
 			<binding name="Description">
-				<literal>Description1</literal>
+				<literal>Proceedings of the XVII international grassland congress</literal>
 			</binding>
 		</result>
 		<result>
@@ -26,13 +26,13 @@
 				<uri>http://chem.deri.ie/granatum/PublishedWork</uri>
 			</binding>
 			<binding name="URI">
-				<uri></uri>
+				<literal>Herrmann R</literal>
 			</binding>
 			<binding name="Label">
-				<literal>Document2</literal>
+				<literal>The complete sequence of the cyanelle genome of Cyanophora paradoxa</literal>
 			</binding>
 			<binding name="Description">
-				<literal>Description2</literal>
+				<literal>Springer-Verlag</literal>
 			</binding>
 		</result>
 		<result>
@@ -40,13 +40,13 @@
 				<uri>http://chem.deri.ie/granatum/PublishedWork</uri>
 			</binding>
 			<binding name="URI">
-				<uri></uri>
+				<literal>Barski O.A.,Bohren K.M.</literal>
 			</binding>
 			<binding name="Label">
-				<literal>Document3</literal>
+				<literal>Characterization of a novel murine aldo-keto reductase</literal>
 			</binding>
 			<binding name="Description">
-				<literal>Description3</literal>
+				<literal>Enzymology and molecular biology of carbonyl metabolism</literal>
 			</binding>
 		</result>
 		<result>
@@ -57,10 +57,10 @@
 				<uri>../resources/samples/image1.jpg</uri>
 			</binding>
 			<binding name="Label">
-				<literal>Image1</literal>
+				<literal>Acetylsalicilic Acid</literal>
 			</binding>
 			<binding name="Description">
-				<literal>Description1</literal>
+				<literal>Analgesic drug used in aspirin</literal>
 			</binding>
 		</result>
 		<result>
@@ -71,10 +71,10 @@
 				<uri>../resources/samples/image2.jpg</uri>
 			</binding>
 			<binding name="Label">
-				<literal>Image2</literal>
+				<literal>Tamoxifen</literal>
 			</binding>
 			<binding name="Description">
-				<literal>Description2</literal>
+				<literal>Antagonist of the estrogen receptor in breast tissue via its active metabolite, hydroxytamoxifen</literal>
 			</binding>
 		</result>
 		<result>
@@ -85,10 +85,10 @@
 				<uri>../resources/samples/image3.jpg</uri>
 			</binding>
 			<binding name="Label">
-				<literal>Image3</literal>
+				<literal>Afimoxifene</literal>
 			</binding>
 			<binding name="Description">
-				<literal>Description3</literal>
+				<literal>Selective estrogen receptor modulator which is the active metabolite of tamoxifen</literal>
 			</binding>
 		</result>
 		<result>

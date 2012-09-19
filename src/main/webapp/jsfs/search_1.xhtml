@@ -14,12 +14,10 @@
             <table align="center">
                 <tr>
                     <td>
-                        Search in:
+                        Search by:
                         <h:selectOneMenu id="annotationsItem" value="#{SearchBean.annotations}">
-                            <f:selectItem itemLabel="Annotations" itemValue="0"/>
-                            <f:selectItem itemLabel="Chemopreventive Agents" itemValue="1"/>
-                            <f:selectItem itemLabel="Molecule" itemValue="2"/>
-                            <f:selectItem itemLabel="Drug" itemValue="3"/>
+                            <f:selectItem itemLabel="Annotations" itemValue="0"   />
+                            <f:selectItem itemLabel="Drugs"       itemValue="1"   />
                         </h:selectOneMenu>
                     </td>
                     <td>
@@ -31,7 +29,6 @@
                 </tr>
             </table>
 
-            <br><br></br></br>
 
             <h:panelGrid columns="2" rendered="#{SearchBean.annotations == '0'}">
 
@@ -165,63 +162,38 @@
 
 
 
-            <center>
+
             <h:panelGroup id="mastergroup2" rendered="#{SearchBean.annotations == '1'}">
                 <h:panelGrid columns="1">
-                    <rich:dataTable id="chemoTable" value="#{SearchBean.chemoResults}" var="chemo" rows="#{SearchBean.chemoLength}" align="center">
-
-                        <rich:column style="width:650px;">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <b>Chemopreventive Agent Name:</b> #{chemo.binding.get(1).literal}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Link to description:</b> <h:outputLink value="#{chemo.binding.get(0).uri}">#{chemo.binding.get(0).uri}</h:outputLink>
-                                    </td>
-                                </tr>                                
-                                <tr>
-                                    <td>
-                                        <b>SMILE: </b> #{chemo.binding.get(2).literal}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        Link to <h:outputLink value="#{chemo.binding.get(3).uri}">SDF</h:outputLink>
-                                    </td>
-                                </tr>                                
-                            </table>
+                    <rich:dataTable id="drugTable" value="#{SearchBean.drugResults}" var="drug" rows="3">
+                        <rich:column style="width:150px;text-align:center;">
+                            #{SearchBean.searchterm}
                         </rich:column>
-                    </rich:dataTable>
-                </h:panelGrid>
-            </h:panelGroup>
-
-            <h:panelGroup id="mastergroup3" rendered="#{SearchBean.annotations == '2'}">
-                <h:panelGrid columns="1">
-                    <rich:dataTable id="molTable" value="#{SearchBean.molResults}" var="mol" rows="#{SearchBean.molLength}" align="center">
-
                         <rich:column style="width:450px;">
                             <table>
                                 <tr>
                                     <td>
-                                        <b>Molecule Name:</b> #{mol.binding.get(1).literal}
+                                        Drug: #{drug.binding.get(0).uri}
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <b>Link to description:</b> <h:outputLink value="#{mol.binding.get(0).uri}">#{mol.binding.get(0).uri}</h:outputLink>
+                                        Drug description: #{drug.binding.get(1).literal}
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <b>Same As: </b> #{mol.binding.get(3).uri}
+                                        Molecule contains (URI): #{drug.binding.get(2).uri}
                                     </td>
-                                </tr>                                
+                                </tr>
                                 <tr>
                                     <td>
-                                        <b>SMILE:</b> #{mol.binding.get(2).literal}
+                                        Molecule information: #{drug.binding.get(3).literal}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Target that interacts with: <h:outputLink value="#{drug.binding.get(4).uri}">#{drug.binding.get(5).literal}</h:outputLink>
                                     </td>
                                 </tr>
                             </table>
@@ -230,29 +202,7 @@
                 </h:panelGrid>
             </h:panelGroup>
 
-            <h:panelGroup id="mastergroup4" rendered="#{SearchBean.annotations == '3'}">
-                <h:panelGrid columns="1">
-                    <rich:dataTable id="drugTable" value="#{SearchBean.drugResults}" var="drug" rows="#{SearchBean.drugsLength}" align="center">
-                        <rich:column style="width:450px;">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <b>Drug Name:</b> #{drug.binding.get(1).literal}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Link to description:</b> <h:outputLink value="#{drug.binding.get(0).uri}">#{drug.binding.get(0).uri}</h:outputLink>
-                                    </td>
-                                </tr>
-                            </table>
-                        </rich:column>
-                    </rich:dataTable>
-                </h:panelGrid>
-            </h:panelGroup>
-                
-                
-            </center>
+
 
 
 

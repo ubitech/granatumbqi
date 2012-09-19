@@ -11,13 +11,13 @@
 	<results>
 		<result>
 			<binding name="Drug">
-				<uri>DrugURI1</uri>
+				<uri>http://chem.deri.ie/granatum/cma_0673fccd6e994e80a1cba30fa5aabd6b</uri>
 			</binding>
 			<binding name="DrugDescription">
 				<literal>DrugDescription1</literal>
 			</binding>
 			<binding name="MoleculeContains">
-				<uri>MoleculeContainsURI1</uri>
+				<uri>O=C(Oc1ccc(cc1)CC(=O)OCC(=O)N(C)C)c2ccc(/N=C(\N)N)cc2</uri>
 			</binding>
 			<binding name="MoleculeInformation">
 				<literal>MoleculeInformation1</literal>

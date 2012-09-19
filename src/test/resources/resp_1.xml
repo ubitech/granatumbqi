@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+  <head>
+    <variable name="ChemoAgent"/>
+    <variable name="Label"/>
+    <variable name="Description"/>
+  </head>
+  <results>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_0673fccd6e994e80a1cba30fa5aabd6b</uri>
+      </binding>
+      <binding name="Label">
+        <literal>O=C(Oc1ccc(cc1)CC(=O)OCC(=O)N(C)C)c2ccc(/N=C(\N)N)cc2</literal>
+      </binding>
+      <binding name="Description">
+        <uri>Camostat</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_563392a5cb064002df8e08b67434e7d7</uri>
+      </binding>
+      <binding name="Label">
+        <literal>[Ca+2].[O-]C(=O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C([O-])=O</literal>
+      </binding>
+      <binding name="Description">
+        <uri>Glucarate Calcium</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="ChemoAgent">
+        <uri>http://chem.deri.ie/granatum/cma_da796bd4ee524659b4d5e393feb3dafa</uri>
+      </binding>
+      <binding name="Label">
+        <literal>Clc1ccc(cc1)C(CN)CC(=O)O</literal>
+      </binding>
+      <binding name="Description">
+        <uri>Baclofen</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>
