@@ -24,7 +24,7 @@ import javax.xml.transform.stream.StreamSource;
 public class DataCloudSPARQLInterface
 {
     private String query;
-    private static final String endpointURL = "http://srvgal78.deri.ie:8080/sparql?output=xml&query=";
+    private static final String endpointURL = "http://srvgal78.deri.ie:8080/graph/Granatum/sparql?output=xml&query=";
     
     public DataCloudSPARQLInterface(String query)
     {       
@@ -60,6 +60,7 @@ public class DataCloudSPARQLInterface
                 msgsock.append("<sparql>\n");
             else
                 msgsock.append(line+"\n");
+//            System.out.println(line);
         }
         
         responseMsg = msgsock.toString().trim();
