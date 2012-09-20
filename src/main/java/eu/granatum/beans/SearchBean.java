@@ -181,7 +181,7 @@ public class SearchBean {
 
 
         if (annotations.trim().equalsIgnoreCase("0")){  //search1.xml
-            parseMockXMLFile("sample1.xml");
+            parseMockXMLFile("/home/ubiadmin/BQIfolder/sample1.xml");
         }
         
         if (annotations.trim().equalsIgnoreCase("1")){
