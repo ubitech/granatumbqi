@@ -65,7 +65,8 @@ public class DataCloudSPARQLInterface
         responseMsg = msgsock.toString().trim();
         reader.close();
 
-        outFile = new FileWriter("D:\\tmp\\resp.xml");
+//        outFile = new FileWriter("D:\\tmp\\resp.xml");
+        outFile = new FileWriter("/home/ubiadmin/BQIfolder/resp.xml");        
         out = new PrintWriter(outFile);
         out.write(msgsock.toString());
         out.flush();

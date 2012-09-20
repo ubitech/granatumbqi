@@ -191,7 +191,8 @@ public class SearchBean {
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
-            parseXMLFile("D:\\tmp\\resp.xml");
+            parseXMLFile("/home/ubiadmin/BQIfolder/resp.xml");
+//            parseXMLFile("D:\\tmp\\resp.xml");
         }
 
         if (annotations.trim().equalsIgnoreCase("2")){
@@ -201,7 +202,8 @@ public class SearchBean {
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
-            parseXMLFile("D:\\tmp\\resp.xml");
+            parseXMLFile("/home/ubiadmin/BQIfolder/resp.xml");            
+//            parseXMLFile("D:\\tmp\\resp.xml");
         }        
         
         if (annotations.trim().equalsIgnoreCase("3")){
@@ -211,7 +213,8 @@ public class SearchBean {
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
-            parseXMLFile("D:\\tmp\\resp.xml");
+            parseXMLFile("/home/ubiadmin/BQIfolder/resp.xml");            
+//            parseXMLFile("D:\\tmp\\resp.xml");
         }          
     }
 
