@@ -169,10 +169,17 @@
             <h:panelGroup id="mastergroup2" rendered="#{SearchBean.annotations == '1'}">
                 <h:panelGrid columns="1">
                     <rich:dataTable id="chemoTable" value="#{SearchBean.chemoResults}" var="chemo" rows="#{SearchBean.chemoLength}" align="center">
+                        <!--
                         <rich:column style="width:100px;">
-                            Description
+                            <center><b>Description</b></center>
                         </rich:column>
+                        -->
                         <rich:column style="width:650px;">
+                            <table border="1">
+                            <tr>
+                                <td><b>Description</b></tr>
+                            
+                            <td>
                             <table>
                                 <tr>
                                     <td>
@@ -195,6 +202,11 @@
                                     </td>
                                 </tr>                                
                             </table>
+                            </td>
+                            <tr>
+                                <td><b>Pathways<b></td><td>(N/A)</td>
+                            </tr>
+                            </table>                                
                         </rich:column>
                     </rich:dataTable>
                 </h:panelGrid>
