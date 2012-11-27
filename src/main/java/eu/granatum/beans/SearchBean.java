@@ -73,11 +73,6 @@ public class SearchBean {
         return new String("test");
     }      
 
-    public String getBasicQueryInterfaceURL()
-    {
-        return new String("http://granatum.ubitech.eu/bqi/jsfs/search.jsf?searchterm=" + this.searchterm 
-                          + "&selection=" + this.annotations);
-    }
     
     public List<Result> getMolResults() {
         return molResults;
