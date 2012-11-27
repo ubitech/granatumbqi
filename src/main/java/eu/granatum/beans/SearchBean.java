@@ -30,6 +30,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
+import javax.faces.context.FacesContext;
 
 /**
  * Created with IntelliJ IDEA.
@@ -58,12 +59,26 @@ public class SearchBean {
     private List<Sparql.Results.Result> drugResults;
     private List<Sparql.Results.Result> chemoResults;
     private List<Sparql.Results.Result> molResults;    
-
+   
     final Logger logger = LoggerFactory.getLogger(SearchBean.class);
 
     public SearchBean() {
     }
 
+    public String getPassedParameters()
+    {
+        FacesContext facesContext = FacesContext.getCurrentInstance();
+        this.searchterm  = (String) facesContext.getExternalContext().getRequestParameterMap().get("searchterm");
+        this.annotations = (String) facesContext.getExternalContext().getRequestParameterMap().get("selection");
+        return new String("test");
+    }      
+
+    public String getBasicQueryInterfaceURL()
+    {
+        return new String("http://granatum.ubitech.eu/bqi/jsfs/search.jsf?searchterm=" + this.searchterm 
+                          + "&selection=" + this.annotations);
+    }
+    
     public List<Result> getMolResults() {
         return molResults;
     }
