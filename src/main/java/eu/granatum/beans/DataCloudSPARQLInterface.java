@@ -73,10 +73,10 @@ public class DataCloudSPARQLInterface
         BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream())); 
 
         while((line = reader.readLine()) != null)
-        {/*
+        {
             if(line.startsWith("<sparql"))
                 msgsock.append("<sparql>\n");
-            else*/
+            else
                 msgsock.append(line+"\n");
 //            System.out.println(line);
         }
@@ -85,7 +85,7 @@ public class DataCloudSPARQLInterface
         reader.close();
 
 //        outFile = new FileWriter("D:\\tmp\\resp.xml");
-        filename = new String("/home/ubiadmin/temp/BQIfolder/resp.xml");
+        filename = new String("/home/ubiadmin/temp/BQIfolder/resp" + ((int)(Math.random()*10000)) + ".xml");
         outFile = new FileWriter(filename);
         out = new PrintWriter(outFile);
         out.write(msgsock.toString());

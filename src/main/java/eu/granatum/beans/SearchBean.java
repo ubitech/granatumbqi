@@ -68,7 +68,7 @@ public class SearchBean {
 
     public SearchBean() {
     }
-
+/*
     public String getPassedParameters()
     {
         FacesContext facesContext = FacesContext.getCurrentInstance();
@@ -76,7 +76,7 @@ public class SearchBean {
         this.annotations = (String) facesContext.getExternalContext().getRequestParameterMap().get("selection");
         return new String("test");
     }      
-
+*/
     
     public List<Result> getMolResults() {
         return molResults;
@@ -219,39 +219,39 @@ public class SearchBean {
         
         if (annotations.trim().equalsIgnoreCase("1")){
             DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?ChemoAgent ?Label ?smile ?sdf WHERE { ?ChemoAgent a <http://chem.deri.ie/granatum/ChemopreventiveAgent>. ?ChemoAgent <http://www.w3.org/2000/01/rdf-schema#label> ?Label. ?ChemoAgent <http://bio2rdf.org/ns/ns/ns/pubchem#SMILES> ?smile.?ChemoAgent <http://chem.deri.ie/granatum/sdf_file> ?sdf. filter regex(?Label,\""+ searchterm +"\",\"i\").}");
-            try {            
-                System.out.println("Calling DERI");
-                
+            try {                           
                 filename = d.getAssociatedEntities();
                 parseXMLFile(filename);
                 File f = new File(filename);
-                f.delete();                
+                f.delete();           
+                
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
-//            parseXMLFile("D:\\tmp\\resp.xml");
         }
 
         if (annotations.trim().equalsIgnoreCase("2")){
             DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?mol ?label ?smile ?sameas WHERE { ?mol a <http://chem.deri.ie/granatum/Molecule>. ?mol <http://www.w3.org/2000/01/rdf-schema#label> ?label. ?mol <http://bio2rdf.org/ns/bio2rdf#smiles> ?smile. ?mol <http://bio2rdf.org/ns/bio2rdf#sameAs> ?sameas. filter regex(?label,\"" + searchterm + "\",\"i\").}");
             try {            
-                d.getAssociatedEntities();
+                filename = d.getAssociatedEntities();
+                parseXMLFile(filename);
+                File f = new File(filename);
+                f.delete();           
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
-            parseXMLFile("/home/ubiadmin/BQIfolder/resp.xml");            
-//            parseXMLFile("D:\\tmp\\resp.xml");
         }        
         
         if (annotations.trim().equalsIgnoreCase("3")){
             DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?Drug ?label WHERE { ?Drug a <http://chem.deri.ie/granatum/Drug>. ?Drug <http://www.w3.org/2000/01/rdf-schema#label> ?label. filter regex(?label,\""+searchterm+"\",\"i\").}");
             try {            
-                d.getAssociatedEntities();
+                filename = d.getAssociatedEntities();
+                parseXMLFile(filename);
+                File f = new File(filename);
+                f.delete();                           
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
-            parseXMLFile("/home/ubiadmin/BQIfolder/resp.xml");            
-//            parseXMLFile("D:\\tmp\\resp.xml");
         }          
     }
 
@@ -262,7 +262,7 @@ public class SearchBean {
             Object f = u.unmarshal( new File(filename ) );
             Sparql sparql =(Sparql) f;
             List<Object> list = sparql.getHeadOrResults();
-
+            System.out.println("Test 1");
             for (int i = 0; i < list.size(); i++) {
                 Object o =  list.get(i);
                 if (o instanceof Sparql.Head){
@@ -283,6 +283,7 @@ public class SearchBean {
                     molResults = new ArrayList<Sparql.Results.Result>();
                     
                     for (int j = 0; j < allResults.size(); j++) {
+                        System.out.println("Test 3");
                         Sparql.Results.Result res = allResults.get(j);
                         
                         Sparql.Results.Result.Binding binding = res.getBinding().get(0);
@@ -308,6 +309,7 @@ public class SearchBean {
                             drugResults.add(res);
                         }
                         if (binding.getName().trim().startsWith("ChemoAgent")) {
+                            System.out.println("----" + res);
                             chemoResults.add(res);
                         }                        
                         if (binding.getName().trim().startsWith("mol")) {
@@ -465,4 +467,38 @@ public class SearchBean {
     }//EoM
 */
 
+    public static void main(String[] args)
+    {
+        try{
+        JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
+        Unmarshaller u = jc.createUnmarshaller();
+        Object f = u.unmarshal( new File( "D:\\tmp\\resp.xml" ) );
+        Sparql sparql =(Sparql) f;
+        List<Object> list = sparql.getHeadOrResults();
+                    System.out.println( sparql.getHeadOrResults().isEmpty() );
+                    System.out.println("TEst " + list.size() );
+            for (int i = 0; i < list.size(); i++) {
+                    System.out.println("TEst");                
+                Object o =  list.get(i);
+                if (o instanceof Sparql.Head){
+                    Sparql.Head head = (Sparql.Head) o;
+                    System.out.println("TEst");
+                }
+                if (o instanceof Sparql.Results){
+                    System.out.println("TEst");
+                    Sparql.Results results = (Sparql.Results) o;
+                    List<Sparql.Results.Result> list2 = results.getResult();
+                    for (int j = 0; j < list2.size(); j++) {
+                        Object o1 =  list2.get(j);
+                        System.out.println(o1.toString());
+                    }
+                }
+
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }        
+    }
 } //EoC
