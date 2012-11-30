@@ -30,6 +30,7 @@ import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -325,7 +326,8 @@ public class SearchBean {
             JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
             Unmarshaller u = jc.createUnmarshaller();
 //            Object f = u.unmarshal( new File( "C:\\projects\\granatumbqi\\target\\test-classes\\"+filename ) );
-            Object f = u.unmarshal( new BufferedInputStream((is)) );
+//            Object f = u.unmarshal( new BufferedInputStream((is)) );
+            Object f = u.unmarshal( new URL("http://srvgal78.deri.ie:8080/graph/Granatum/sparql?output=xml&query=SELECT%20%3FChemoAgent%20%3FLabel%20%3Fsmile%20%3Fsdf%20WHERE%20{%20%3FChemoAgent%20a%20%3Chttp%3A%2F%2Fchem.deri.ie%2Fgranatum%2FChemopreventiveAgent%3E.%20%3FChemoAgent%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label%3E%20%3FLabel.%20%3FChemoAgent%20%3Chttp%3A%2F%2Fbio2rdf.org%2Fns%2Fns%2Fns%2Fpubchem%23SMILES%3E%20%3Fsmile.%3FChemoAgent%20%3Chttp%3A%2F%2Fchem.deri.ie%2Fgranatum%2Fsdf_file%3E%20%3Fsdf.%20filter%20regex%28%3FLabel%2C%22asp%22%2C%22i%22%29.}") );
             Sparql sparql =(Sparql) f;
             List<Object> list = sparql.getHeadOrResults();
 
