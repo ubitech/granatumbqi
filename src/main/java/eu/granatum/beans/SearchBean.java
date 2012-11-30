@@ -217,9 +217,10 @@ public class SearchBean {
         }
         
         if (annotations.trim().equalsIgnoreCase("1")){
-            DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?ChemoAgent ?Label ?smile ?sdf WHERE { ?ChemoAgent a <http://chem.deri.ie/granatum/ChemopreventiveAgent>. ?ChemoAgent <http://www.w3.org/2000/01/rdf-schema#label> ?Label. ?ChemoAgent <http://bio2rdf.org/ns/ns/ns/pubchem#SMILES> ?smile.?ChemoAgent <http://chem.deri.ie/granatum/sdf_file> ?sdf. filter regex(?Label,\""+ searchterm +"\",\"i\").}");
+//            DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?ChemoAgent ?Label ?smile ?sdf WHERE { ?ChemoAgent a <http://chem.deri.ie/granatum/ChemopreventiveAgent>. ?ChemoAgent <http://www.w3.org/2000/01/rdf-schema#label> ?Label. ?ChemoAgent <http://bio2rdf.org/ns/ns/ns/pubchem#SMILES> ?smile.?ChemoAgent <http://chem.deri.ie/granatum/sdf_file> ?sdf. filter regex(?Label,\""+ searchterm +"\",\"i\").}");
             try {            
-                parseMockXMLFile(d.getAssociatedEntities());
+                System.out.println("Calling DERI");
+                parseMockXMLFile(null);
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
