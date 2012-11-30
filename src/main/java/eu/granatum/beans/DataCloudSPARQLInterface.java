@@ -73,10 +73,10 @@ public class DataCloudSPARQLInterface
         BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream())); 
 
         while((line = reader.readLine()) != null)
-        {
+        {/*
             if(line.startsWith("<sparql"))
                 msgsock.append("<sparql>\n");
-            else
+            else*/
                 msgsock.append(line+"\n");
 //            System.out.println(line);
         }
