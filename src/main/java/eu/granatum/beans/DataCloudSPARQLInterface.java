@@ -22,6 +22,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
@@ -54,7 +55,7 @@ public class DataCloudSPARQLInterface
         System.out.println("QUERY= " + this.query);
  
     }
-    
+/*    
     public void getAssociatedEntities()
     throws Throwable
     {
@@ -91,6 +92,24 @@ public class DataCloudSPARQLInterface
         
         return;
     }
+*/    
+    
+    public InputStream getAssociatedEntities()
+    throws Throwable
+    {
+        StringBuffer msgsock = new StringBuffer();
+        Collection collection = null;
+        String line;
+        FileWriter outFile;
+        PrintWriter out;
+        String responseMsg;
+        
+        URL targetURL = new URL(endpointURL + query);
+        URLConnection connection = targetURL.openConnection();
+        connection.setDoOutput(true);
+
+        return connection.getInputStream();
+    }
     
     public static void main(String[] args)
     {
@@ -105,3 +124,4 @@ public class DataCloudSPARQLInterface
         }
     }
 }
+
