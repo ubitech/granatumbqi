@@ -55,8 +55,8 @@ public class DataCloudSPARQLInterface
         System.out.println("QUERY= " + this.query);
  
     }
-/*    
-    public void getAssociatedEntities()
+    
+    public String getAssociatedEntities()
     throws Throwable
     {
         StringBuffer msgsock = new StringBuffer();
@@ -65,6 +65,7 @@ public class DataCloudSPARQLInterface
         FileWriter outFile;
         PrintWriter out;
         String responseMsg;
+        String filename;
         
         URL targetURL = new URL(endpointURL + query);
         URLConnection connection = targetURL.openConnection();
@@ -84,16 +85,17 @@ public class DataCloudSPARQLInterface
         reader.close();
 
 //        outFile = new FileWriter("D:\\tmp\\resp.xml");
-        outFile = new FileWriter("/home/ubiadmin/BQIfolder/resp.xml");        
+        filename = new String("/home/ubiadmin/temp/BQIfolder/resp.xml");
+        outFile = new FileWriter(filename);
         out = new PrintWriter(outFile);
         out.write(msgsock.toString());
         out.flush();
         out.close();
         
-        return;
+        return filename;
     }
-*/    
-    
+  
+/*    
     public InputStream getAssociatedEntities()
     throws Throwable
     {
@@ -110,7 +112,7 @@ public class DataCloudSPARQLInterface
 
         return connection.getInputStream();
     }
-    
+  */  
     public static void main(String[] args)
     {
         try {        

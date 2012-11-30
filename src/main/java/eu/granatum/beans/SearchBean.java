@@ -200,6 +200,7 @@ public class SearchBean {
     public void doSearch(){
         //Actual Web Service Invocation
         //TODO otan i danai ksekoulathei
+        String filename = null;
         setChemoResults(null);
         //mock Web Service Invocation
         try{
@@ -217,14 +218,17 @@ public class SearchBean {
         }
         
         if (annotations.trim().equalsIgnoreCase("1")){
-//            DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?ChemoAgent ?Label ?smile ?sdf WHERE { ?ChemoAgent a <http://chem.deri.ie/granatum/ChemopreventiveAgent>. ?ChemoAgent <http://www.w3.org/2000/01/rdf-schema#label> ?Label. ?ChemoAgent <http://bio2rdf.org/ns/ns/ns/pubchem#SMILES> ?smile.?ChemoAgent <http://chem.deri.ie/granatum/sdf_file> ?sdf. filter regex(?Label,\""+ searchterm +"\",\"i\").}");
+            DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?ChemoAgent ?Label ?smile ?sdf WHERE { ?ChemoAgent a <http://chem.deri.ie/granatum/ChemopreventiveAgent>. ?ChemoAgent <http://www.w3.org/2000/01/rdf-schema#label> ?Label. ?ChemoAgent <http://bio2rdf.org/ns/ns/ns/pubchem#SMILES> ?smile.?ChemoAgent <http://chem.deri.ie/granatum/sdf_file> ?sdf. filter regex(?Label,\""+ searchterm +"\",\"i\").}");
             try {            
                 System.out.println("Calling DERI");
-                parseMockXMLFile(null);
+                
+                filename = d.getAssociatedEntities();
+                parseXMLFile(filename);
+                File f = new File(filename);
+                f.delete();                
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
-//            parseXMLFile("/home/ubiadmin/BQIfolder/resp.xml");
 //            parseXMLFile("D:\\tmp\\resp.xml");
         }
 
