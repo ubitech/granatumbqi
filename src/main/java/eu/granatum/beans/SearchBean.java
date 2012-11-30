@@ -19,6 +19,7 @@ package eu.granatum.beans;
 
 import eu.granatum.xsd.Sparql;
 import eu.granatum.xsd.Sparql.Results.Result;
+import java.io.BufferedInputStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -324,7 +325,7 @@ public class SearchBean {
             JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
             Unmarshaller u = jc.createUnmarshaller();
 //            Object f = u.unmarshal( new File( "C:\\projects\\granatumbqi\\target\\test-classes\\"+filename ) );
-            Object f = u.unmarshal( new InputStreamReader((is)) );
+            Object f = u.unmarshal( new BufferedInputStream((is)) );
             Sparql sparql =(Sparql) f;
             List<Object> list = sparql.getHeadOrResults();
 
