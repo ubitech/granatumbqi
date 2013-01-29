@@ -34,6 +34,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
+import javax.faces.bean.ManagedProperty;
 import javax.faces.context.FacesContext;
 
 /**
@@ -49,9 +50,9 @@ public class SearchBean {
     /**
      * Creates a new instance of SearchBean
      */
+    @ManagedProperty(value = "#{param.annotations}")    
     private String annotations;
     private String drugs;
-    private String searchterm;
     int chemoLength = 0;
     int molLength = 0;
     int drugsLength = 0;
@@ -66,6 +67,18 @@ public class SearchBean {
    
     final Logger logger = LoggerFactory.getLogger(SearchBean.class);
 
+    @ManagedProperty(value = "#{param.searchterm}")
+    private String searchterm;    
+
+    public String getSearchterm() {
+        return searchterm;
+    }
+
+    public void setSearchterm(String searchterm) {
+        this.searchterm = searchterm;
+    }
+
+    
     public SearchBean() {
     }
 /*
@@ -134,15 +147,6 @@ public class SearchBean {
     public void setDrugs(String drugs) {
         this.drugs = drugs;
     }
-
-    public String getSearchterm() {
-        return searchterm;
-    }
-
-    public void setSearchterm(String searchterm) {
-        this.searchterm = searchterm;
-    }
-
 
     public List<Sparql.Results.Result> getAllResults() {
         return allResults;
@@ -214,7 +218,7 @@ public class SearchBean {
 
         if (annotations.trim().equalsIgnoreCase("0")){  //search1.xml
 //            parseMockXMLFile("/home/ubiadmin/BQIfolder/sample1.xml");
-            parseXMLFile("/home/ubiadmin/BQIfolder/sample1.xml");            
+            parseXMLFile("/home/ubiadmin/temp/BQIfolder/sample1.xml");            
         }
         
         if (annotations.trim().equalsIgnoreCase("1")){

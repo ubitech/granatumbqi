@@ -86,6 +86,7 @@ public class DataCloudSPARQLInterface
 
 //        outFile = new FileWriter("D:\\tmp\\resp.xml");
         filename = new String("/home/ubiadmin/temp/BQIfolder/resp" + ((int)(Math.random()*10000)) + ".xml");
+//        filename = new String("D:\\\\tmp\\\\resp" + ((int)(Math.random()*10000)) + ".xml");        
         outFile = new FileWriter(filename);
         out = new PrintWriter(outFile);
         out.write(msgsock.toString());
