@@ -75,13 +75,14 @@ public class DataCloudSPARQLInterface
         while((line = reader.readLine()) != null)
         {
 //            System.out.println(line);
-            
+/*            
             if(line.startsWith("<sparql"))
                 msgsock.append("<sparql>\n");
             else
                 msgsock.append(line+"\n");
+                */
 //            System.out.println(msgsock.toString());
-//            msgsock.append(line+"\n");
+            msgsock.append(line+"\n");            
         }
         
         responseMsg = msgsock.toString().trim();
