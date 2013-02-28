@@ -318,7 +318,7 @@ public class SearchBean {
                             chemoResults.add(res);
                         }                        
                         if (binding.getName().trim().startsWith("mol")) {
-                            System.out.println("----" + res);
+                            System.out.println("----" + res.getBinding().get(0).getUri());
                             molResults.add(res);
                         }                                                
                     }
@@ -331,7 +331,7 @@ public class SearchBean {
             e.printStackTrace();
         }
         
-        this.chemoLength = chemoResults.size();
+       //this.chemoLength = chemoResults.size();
     }//EoM
 
     private void parseMockXMLFile(InputStream is){
@@ -511,7 +511,8 @@ public class SearchBean {
     public static void main(String[] args)
     {
         SearchBean s = new SearchBean();
+        //s.setChemoResults(null);
         s.parseXMLFile("C:\\Users\\user\\Desktop\\test.txt");
-        System.out.println(s.getMolResults());
+        System.out.println(s.getMolLength());
     }
 } //EoC
