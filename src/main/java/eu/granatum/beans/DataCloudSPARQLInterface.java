@@ -81,7 +81,7 @@ public class DataCloudSPARQLInterface
             else
                 msgsock.append(line+"\n");
             System.out.println(msgsock.toString());
-            msgsock.append(line+"\n");
+//            msgsock.append(line+"\n");
         }
         
         responseMsg = msgsock.toString().trim();
