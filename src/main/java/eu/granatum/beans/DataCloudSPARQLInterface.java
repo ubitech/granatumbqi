@@ -80,7 +80,7 @@ public class DataCloudSPARQLInterface
                 msgsock.append("<sparql>\n");
             else
                 msgsock.append(line+"\n");
-            System.out.println(line);
+            System.out.println(msgsock.toString());
         }
         
         responseMsg = msgsock.toString().trim();
