@@ -75,14 +75,13 @@ public class DataCloudSPARQLInterface
         while((line = reader.readLine()) != null)
         {
 //            System.out.println(line);
-/*            
+            
             if(line.startsWith("<sparql"))
                 msgsock.append("<sparql>\n");
             else
                 msgsock.append(line+"\n");
-                */
-//            System.out.println(msgsock.toString());
-            msgsock.append(line+"\n");            
+            
+//            msgsock.append(line+"\n");            
         }
         
         responseMsg = msgsock.toString().trim();
@@ -93,6 +92,8 @@ public class DataCloudSPARQLInterface
 //        filename = new String("D:\\\\tmp\\\\resp" + ((int)(Math.random()*10000)) + ".xml");        
         outFile = new FileWriter(filename);
         out = new PrintWriter(outFile);
+        System.out.println("msgsock:" + msgsock);
+        System.out.println("resp:" + responseMsg);
         out.write(msgsock.toString());
         out.flush();
         out.close();
