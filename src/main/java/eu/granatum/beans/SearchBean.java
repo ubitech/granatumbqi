@@ -240,8 +240,8 @@ public class SearchBean {
                 filename = d.getAssociatedEntities();
                 System.out.println("filename: " + filename);
                 parseXMLFile(filename);
-                File f = new File(filename);
-                f.delete();           
+                //File f = new File(filename);
+                //f.delete();           
             } catch (Throwable ex) {
                 java.util.logging.Logger.getLogger(SearchBean.class.getName()).log(Level.SEVERE, null, ex);
             }
