@@ -238,6 +238,7 @@ public class SearchBean {
             DataCloudSPARQLInterface d = new DataCloudSPARQLInterface("SELECT ?mol ?label ?smile ?sameas WHERE { ?mol a <http://chem.deri.ie/granatum/Molecule>. ?mol <http://www.w3.org/2000/01/rdf-schema#label> ?label. ?mol <http://bio2rdf.org/ns/bio2rdf#smiles> ?smile. ?mol <http://bio2rdf.org/ns/bio2rdf#sameAs> ?sameas. filter regex(?label,\"" + searchterm + "\",\"i\").}");
             try {            
                 filename = d.getAssociatedEntities();
+                System.out.println("filename: " + filename);
                 parseXMLFile(filename);
                 File f = new File(filename);
                 f.delete();           
@@ -259,7 +260,7 @@ public class SearchBean {
         }          
     }
 
-    private void parseXMLFile(String filename){
+    public void parseXMLFile(String filename){
         try{
             JAXBContext jc = JAXBContext.newInstance( "eu.granatum.xsd" );
             Unmarshaller u = jc.createUnmarshaller();
@@ -317,6 +318,7 @@ public class SearchBean {
                             chemoResults.add(res);
                         }                        
                         if (binding.getName().trim().startsWith("mol")) {
+                            System.out.println("----" + res);
                             molResults.add(res);
                         }                                                
                     }
@@ -470,7 +472,7 @@ public class SearchBean {
         }
     }//EoM
 */
-
+/*
     public static void main(String[] args)
     {
         try{
@@ -504,5 +506,12 @@ public class SearchBean {
         } catch (Exception e) {
             e.printStackTrace();
         }        
+    }
+  */  
+    public static void main(String[] args)
+    {
+        SearchBean s = new SearchBean();
+        s.parseXMLFile("C:\\Users\\user\\Desktop\\test.txt");
+        System.out.println(s.getMolResults());
     }
 } //EoC
